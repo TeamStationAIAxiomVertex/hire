@@ -1,0 +1,36 @@
+{
+  "slug": "kubernetes",
+  "name": "Kubernetes",
+  "category": "DevOps & Cloud",
+  "categorySlug": "devops-cloud",
+  "seo_title": "Hire Nearshore Kubernetes Engineers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Kubernetes engineers vetted by Axiom Cortex™ for cluster reliability, security, and CI/CD automation. U.S. time-zone alignment.",
+  "technical_analysis": "Our vetting for nearshore Kubernetes engineers includes a live debugging challenge. Candidates are presented with a deployment stuck in a `CrashLoopBackOff` state. They must use `kubectl describe` to inspect events, `kubectl logs` to check for application errors, and validate the liveness and readiness probes. A top candidate will quickly diagnose the root cause—be it a misconfigured health check or an application bug. The solution must be implemented via a GitOps workflow. We expect our nearshore Kubernetes engineers to explain the importance of setting proper resource limits and requests to avoid noisy neighbor problems. This practical test confirms that the nearshore Kubernetes engineers we provide have the hands-on troubleshooting skills needed to maintain production stability.",
+  "interlink_slugs": [
+    "aws",
+    "gcp",
+    "devops",
+    "terraform",
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": "Kubernetes engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

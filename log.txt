@@ -1,0 +1,15 @@
+
+> nextn@0.1.0 dev
+> next dev -p 9002
+
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:9002
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 3.7s
+ ○ Compiling / ...
+ ✓ Compiled / in 14.4s (749 modules)
+ GET / 200 in 15423ms
+ ✓ Compiled in 1170ms (364 modules)
+[?25h

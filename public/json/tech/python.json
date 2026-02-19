@@ -1,0 +1,36 @@
+{
+  "slug": "python",
+  "name": "Python",
+  "category": "Backend Services",
+  "categorySlug": "backend-services",
+  "seo_title": "Hire Nearshore Python Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Python developers vetted by Axiom Cortex™ for scalable APIs and ML model serving. U.S. time-zone alignment for seamless development.",
+  "technical_analysis": "Our Axiom Cortex™ vetting for Python focuses on real-world architectural decisions. We present a scenario requiring both a public-facing API and a high-performance ML model serving endpoint. Candidates must justify their framework choices—typically Django for the comprehensive public API and FastAPI for the low-latency model serving. Top nearshore Python developers will identify common `asyncio` pitfalls, like running blocking I/O calls in an async event loop, and implement correct asynchronous patterns. For the ML portion, they must discuss trade-offs between a simple FastAPI wrapper and a dedicated solution like NVIDIA Triton for GPU-bound models. The final architecture from our nearshore Python developers must demonstrate a clear separation of concerns and a strategy for achieving specific p95 latency SLOs. This ensures all nearshore Python developers are prepared for complex backend challenges.",
+  "interlink_slugs": [
+    "django",
+    "fastapi",
+    "aws",
+    "gcp",
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": "Python engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

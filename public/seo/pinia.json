@@ -1,0 +1,48 @@
+{
+  "slug": "pinia",
+  "name": "Pinia (Vue State)",
+  "category": "Frontend & UI/UX",
+  "categorySlug": "frontend-web",
+  "seo_title": "Hire Pinia Experts | Type-Safe, Modular State Management for Vue",
+  "meta_description": "Manage Vue state with simplicity and type safety. Hire senior remote Pinia experts vetted for modular, performant store architecture. Book a call.",
+  "intro": "Pinia brings clarity and type-safety to Vue state. We focus on engineers who design deterministic stores with clean action boundaries and minimal coupling.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Bloated, interdependent stores?",
+      "problem": "Monolithic stores create hidden coupling and accidental cycles.",
+      "solution": "We enforce module boundaries, composables for reuse, and typed selectors.",
+      "kpi": "Reduced cross-store coupling"
+    },
+    {
+      "icon": {},
+      "pain": "Runtime bugs from untyped state?",
+      "problem": "Loose typing lets invalid states leak into UI and APIs.",
+      "solution": "We use strict TS types and exhaustive action payload checks.",
+      "kpi": "Fewer invalid state assertions"
+    },
+    {
+      "icon": {},
+      "pain": "Performance drops on large updates?",
+      "problem": "Naive updates trigger full recomputes.",
+      "solution": "We apply granular updates, computed memoization, and devtools tracing.",
+      "kpi": "Lower recompute cost per action"
+    }
+  ],
+  "evaluation": [
+    "Store design and modularization",
+    "Type safety and payload contracts",
+    "Performance and memoization",
+    "Testing actions and selectors",
+    "SSR compatibility"
+  ],
+  "technical_analysis": "Candidates refactor a tangled store into modular Pinia with typed contracts and measurable perf gains via profiling.",
+  "interlink_slugs": [
+    "vue",
+    "react",
+    "typescript",
+    "nextjs",
+    "python",
+    "node"
+  ]
+}

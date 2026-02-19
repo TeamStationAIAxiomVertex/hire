@@ -1,0 +1,47 @@
+{
+  "slug": "remix",
+  "name": "Remix",
+  "category": "Frontend & UI/UX",
+  "categorySlug": "frontend-web",
+  "seo_title": "Hire Senior Remix Developers | Fast, Resilient Web Experiences",
+  "meta_description": "Build fast, resilient web experiences. Hire senior Remix experts vetted for progressive enhancement, loaders/actions, and route-driven UX.",
+  "intro": "Remix shines when you embrace the platform: forms, HTTP, and progressive enhancement. We look for engineers who design resilient UX that work with or without JS.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Forms that fail without client JS?",
+      "problem": "SPA habits break progressive enhancement and resilience.",
+      "solution": "We lean on HTML forms, server actions, and route loaders for robust UX.",
+      "kpi": "Graceful no-JS interaction coverage"
+    },
+    {
+      "icon": {},
+      "pain": "Slow perceived performance on navigation?",
+      "problem": "Poor route boundaries and data waterfalls delay content.",
+      "solution": "We split routes, use loaders to prefetch, and stream above-the-fold content.",
+      "kpi": "Improved TTFB and navigation latency"
+    },
+    {
+      "icon": {},
+      "pain": "State spread across ad-hoc contexts?",
+      "problem": "Global state where route state would do increases complexity.",
+      "solution": "We prefer route-based state and fetchers with clear lifecycles.",
+      "kpi": "Reduced global state surface"
+    }
+  ],
+  "evaluation": [
+    "Route loaders/actions and data semantics",
+    "Progressive enhancement patterns",
+    "Error boundaries and resilience",
+    "Streaming and prefetch strategies",
+    "Accessibility and testing"
+  ],
+  "technical_analysis": "We require loader/action-centric designs, resilient error boundaries, and measurable navigation perf gains. Candidates demonstrate platform-first thinking over client-JS crutches.",
+  "interlink_slugs": [
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ]
+}

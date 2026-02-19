@@ -1,0 +1,32 @@
+{
+  "slug": "salesforce-lwc",
+  "name": "Salesforce Lwc",
+  "category": "Engineering & Technology",
+  "categorySlug": "engineering-tech",
+  "seo_title": "Hire Nearshore salesforce-lwc Engineers | TeamStation AI",
+  "meta_description": "Hire elite nearshore salesforce-lwc engineers vetted by Axiom Cortex™ for cognitive fit, scalability, and U.S. time-zone alignment.",
+  "intro": "salesforce lwc engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ],
+  "technical_analysis": "Engineers are evaluated for depth of reasoning, performance awareness, and cognitive adaptability. Each candidate demonstrates real-world debugging and architectural decision-making aligned with U.S. product standards.",
+  "interlink_slugs": [
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hire.teamstation.dev/sitemap.xml

@@ -1,0 +1,50 @@
+{
+  "slug": "nextjs",
+  "name": "Next.js",
+  "category": "Frontend & UI/UX",
+  "categorySlug": "frontend-web",
+  "seo_title": "Hire Nearshore Next.js Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Next.js developers vetted by Axiom Cortex™. U.S. time-zone alignment, App Router expertise, Server Components, and caching mastery.",
+  "intro": "Next.js is powerful, but misuse of Client Components, caching, or routing can tank performance. Our nearshore Next.js developers operate with a server-first mental model, align to U.S. time zones, and keep Core Web Vitals within budget—validated by Axiom Cortex™.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your bundle massive and TTFB slow?",
+      "problem": "Overusing the 'use client' directive effectively turns a server-rendered app into a heavy SPA.",
+      "solution": "We ensure server-first composition and laser-focused client boundaries to minimize JS shipped to the browser.",
+      "kpi": "Server components usage and reduced bundle size"
+    },
+    {
+      "icon": {},
+      "pain": "Confused by caching and revalidation rules?",
+      "problem": "Incorrect cache directives cause stale data or constant misses that hammer the backend.",
+      "solution": "We apply the correct mix of full-route cache, data cache, and on-demand revalidation via revalidatePath/revalidateTag.",
+      "kpi": "Cache hit rate and stable revalidation"
+    },
+    {
+      "icon": {},
+      "pain": "Unclear when to use Server Actions vs API routes?",
+      "problem": "Choosing the wrong primitive leads to complexity and security risk.",
+      "solution": "We pick Server Actions for RPC-style mutations and Route Handlers for versioned REST APIs.",
+      "kpi": "Secure, minimal mutation surface"
+    }
+  ],
+  "evaluation": [
+    "App Router and advanced routing patterns",
+    "Server Components and data fetching strategies",
+    "Advanced caching and on-demand revalidation",
+    "Server Actions vs. Route Handlers",
+    "Performance for Core Web Vitals"
+  ],
+  "technical_analysis": "We evaluate Next.js developers with production-style performance triage. Candidates receive a mobile page with LCP above 4s and must justify server/client boundaries, select SSR or ISR with cache TTLs, and fix image and font loading. A strong solution from our nearshore Next.js developers replaces client-side data fetching with server components, implements next/image with responsive sizing, adds fetch(..., { next: { revalidate: 60 } }) where appropriate, and validates LCP < 2.0s and CLS ≈ 0 in lab runs. These nearshore Next.js developers must explain trade-offs (TTFB vs. cache staleness) and provide an observability plan to keep Core Web Vitals within budget under load.",
+  "interlink_slugs": [
+    "react",
+    "typescript",
+    "playwright",
+    "angular",
+    "remix",
+    "nextjs",
+    "python",
+    "node"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "graphql",
+  "name": "GraphQL",
+  "category": "Backend Services",
+  "categorySlug": "backend-services",
+  "seo_title": "Hire Nearshore GraphQL Engineers | TeamStation AI",
+  "meta_description": "Hire elite nearshore GraphQL engineers vetted by Axiom Cortex™ to prevent N+1 problems and design scalable schemas. U.S. time-zone alignment for efficient teamwork.",
+  "technical_analysis": "Our Axiom Cortex™ screening gives candidates a GraphQL schema with a resolver that triggers a classic N+1 query problem. A successful candidate must immediately identify the performance bottleneck and implement a `DataLoader` pattern to batch the underlying database requests into a single query. We require our nearshore GraphQL engineers to explain not just the 'how' but the 'why' this pattern works with the event loop. Beyond fixing the bug, they must propose a query cost analysis strategy to prevent schema abuse and discuss the architectural trade-offs of schema federation for microservices. The process ensures the nearshore GraphQL engineers we provide can build APIs that are not just flexible but also highly performant and secure, which is why our nearshore GraphQL engineers are trusted by top teams.",
+  "interlink_slugs": [
+    "nodejs",
+    "typescript",
+    "react",
+    "aws",
+    "nextjs",
+    "python",
+    "node"
+  ],
+  "intro": "GraphQL engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

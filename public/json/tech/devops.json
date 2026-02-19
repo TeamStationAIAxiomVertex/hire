@@ -1,0 +1,36 @@
+{
+  "slug": "devops",
+  "name": "DevOps",
+  "category": "DevOps & Cloud",
+  "categorySlug": "devops-cloud",
+  "seo_title": "Hire Nearshore DevOps Engineers | TeamStation AI",
+  "meta_description": "Hire elite nearshore DevOps engineers vetted by Axiom Cortex™ for secure CI/CD, Infrastructure as Code (IaC), and enhanced developer velocity. U.S. time-zones.",
+  "technical_analysis": "We evaluate nearshore DevOps engineers on their ability to build secure, efficient, and automated software delivery pipelines. Candidates are tasked with creating a CI/CD pipeline for a containerized application from scratch. This requires writing a secure Dockerfile, using Terraform to provision necessary cloud infrastructure (like a container registry and a Kubernetes cluster), and configuring a CI tool to automatically build, test, scan for vulnerabilities, and deploy the application. We expect our nearshore DevOps engineers to implement GitOps principles for managing deployments. Success is measured by the pipeline's reliability, security posture (e.g., passing a Trivy scan), and the overall time from commit to production. This ensures the nearshore DevOps engineers you hire are true force-multipliers.",
+  "interlink_slugs": [
+    "aws",
+    "kubernetes",
+    "gcp",
+    "terraform",
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": "DevOps engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

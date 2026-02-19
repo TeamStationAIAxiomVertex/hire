@@ -1,0 +1,35 @@
+{
+  "slug": "react",
+  "name": "React",
+  "category": "Frontend & UI/UX",
+  "categorySlug": "frontend-web",
+  "seo_title": "Hire Nearshore React Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore React developers vetted by Axiom Cortex™ for low INP and scalable state architecture. U.S. time-zone alignment for seamless collaboration.",
+  "technical_analysis": "Our Axiom Cortex™ vetting presents candidates with a React app suffering from high INP (>500ms) due to excessive re-renders. A successful candidate must use the React Profiler to diagnose the cause—typically improper state management or missing memoization. The required fix involves refactoring state to use Suspense-friendly data patterns and applying `React.memo` or `useCallback` strategically. We require our nearshore React developers to not only fix the issue but also to articulate a testing strategy to prevent regressions. The goal is a stable INP score below 200ms under simulated load. This process ensures the nearshore React developers we provide can build applications that are both robust and performant, meeting enterprise quality standards.",
+  "interlink_slugs": [
+    "nextjs",
+    "angular",
+    "vue",
+    "remix",
+    "react",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": "React engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

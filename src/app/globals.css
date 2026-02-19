@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #0f131a;
+    --bg-elev: #151a22;
+    --border: #232a35;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --primary: #8ab4ff;
+    --primary-muted: #7aa2e6;
+    --accent: #66c7ff; /* Changed from green to electric blue */
+    --focus: #66c7ff; /* Changed from green to electric blue */
+
+    --background: 210 22% 8%; /* --bg */
+    --foreground: 210 40% 98%; /* --text - increased contrast */
+
+    --card: 213 22% 11%; /* --bg-elev */
+    --card-foreground: 210 40% 98%; /* --text */
+
+    --popover: 213 22% 11%; /* --bg-elev */
+    --popover-foreground: 210 40% 98%; /* --text */
+
+    --primary-hsl: 217 100% 77%; /* --primary */
+    --primary-foreground: 210 22% 8%; /* --bg */
+
+    --secondary: 215 14% 17%; /* darker --border */
+    --secondary-foreground: 210 16% 90%; /* --text */
+
+    --muted-hsl: 214 11% 51%;
+    --muted-foreground: 215 20% 80%; /* --text-muted - increased contrast */
+
+    --accent-hsl: 200 100% 70%; /* --accent - Changed from green HSL */
+    --accent-foreground: 210 22% 8%; /* --bg */
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border-hsl: 215 19% 17%; /* --border */
+    --input: 215 19% 17%;
+    --ring: 200 100% 70%; /* --focus - Changed from green HSL */
+
+    --radius: 1rem;
+  }
+ 
+  .dark {
+    --bg: #0f131a;
+    --bg-elev: #151a22;
+    --border: #232a35;
+    --text: #e2e8f0;
+    --text-muted: #94a3b8;
+    --primary: #8ab4ff;
+    --primary-muted: #7aa2e6;
+    --accent: #66c7ff; /* Changed from green to electric blue */
+    --focus: #66c7ff; /* Changed from green to electric blue */
+
+    --background: 210 22% 8%; /* --bg */
+    --foreground: 210 40% 98%; /* --text - increased contrast */
+
+    --card: 213 22% 11%; /* --bg-elev */
+    --card-foreground: 210 40% 98%; /* --text */
+
+    --popover: 213 22% 11%; /* --bg-elev */
+    --popover-foreground: 210 40% 98%; /* --text */
+
+    --primary-hsl: 217 100% 77%; /* --primary */
+    --primary-foreground: 210 22% 8%; /* --bg */
+
+    --secondary: 215 14% 17%; /* darker --border */
+    --secondary-foreground: 210 16% 90%; /* --text */
+
+    --muted-hsl: 214 11% 51%;
+    --muted-foreground: 215 20% 80%; /* --text-muted - increased contrast */
+
+    --accent-hsl: 200 100% 70%; /* --accent - Changed from green HSL */
+    --accent-foreground: 210 22% 8%; /* --bg */
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border-hsl: 215 19% 17%; /* --border */
+    --input: 215 19% 17%;
+    --ring: 200 100% 70%; /* --focus - Changed from green HSL */
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    @apply bg-bg text-text;
+  }
+  body {
+    @apply bg-bg text-text;
+    background-image: radial-gradient(at 27% 37%, hsla(215, 98%, 61%, 0.1) 0px, transparent 50%),
+    radial-gradient(at 97% 21%, hsla(200, 100%, 70%, 0.1) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, hsla(217, 100%, 77%, 0.1) 0px, transparent 50%);
+  }
+}

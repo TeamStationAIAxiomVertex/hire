@@ -1,0 +1,36 @@
+{
+  "slug": "go",
+  "name": "Go (Golang)",
+  "category": "Backend Services",
+  "categorySlug": "backend-services",
+  "seo_title": "Hire Nearshore Golang Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Golang developers vetted by Axiom Cortex™ for concurrent, high-performance microservices. U.S. time-zone alignment for efficient development.",
+  "technical_analysis": "We vet nearshore Golang developers on their deep understanding of concurrency. Candidates are given a slow, single-threaded data processing task and are required to refactor it into a high-throughput, concurrent pipeline using goroutines and channels. A key part of the evaluation is their ability to handle graceful shutdowns and manage worker pools to avoid overwhelming downstream services. We require our nearshore Golang developers to demonstrate mastery of Go's error handling patterns and an ability to write clean, idiomatic code. The solution must be instrumented with Prometheus metrics to measure throughput and latency, proving the optimization's effectiveness. This ensures the nearshore Golang developers you hire can build systems that are not only fast but also observable and reliable.",
+  "interlink_slugs": [
+    "kubernetes",
+    "aws",
+    "gcp",
+    "rust",
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": "Go (Golang) engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

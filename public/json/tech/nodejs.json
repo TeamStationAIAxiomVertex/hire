@@ -1,0 +1,35 @@
+{
+  "slug": "nodejs",
+  "name": "Node.js",
+  "category": "Backend Services",
+  "categorySlug": "backend-services",
+  "seo_title": "Hire Nearshore Node.js Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Node.js developers vetted by Axiom Cortex™ for high-throughput, low-latency backend services. U.S. time-zone alignment and proven expertise.",
+  "technical_analysis": "We vet nearshore Node.js developers by tasking them with optimizing a service that exhibits event loop blocking under load. The candidate must use tools like clinic.js to identify the blocking code and refactor it into non-blocking, asynchronous patterns. Success requires not only fixing the immediate issue but also implementing proper stream backpressure handling to prevent memory exhaustion. We expect our nearshore Node.js developers to articulate the trade-offs between different ORMs like Prisma and TypeORM in the context of connection pooling and query performance. The final solution must meet a p95 latency SLO of under 150ms. This rigorous process guarantees the nearshore Node.js developers you hire can build resilient, high-performance backends.",
+  "interlink_slugs": [
+    "typescript",
+    "aws",
+    "gcp",
+    "graphql",
+    "react",
+    "nextjs",
+    "python",
+    "node"
+  ],
+  "intro": "Node.js engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

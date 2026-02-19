@@ -1,0 +1,36 @@
+{
+  "slug": "java",
+  "name": "Java",
+  "category": "Backend Services",
+  "categorySlug": "backend-services",
+  "seo_title": "Hire Nearshore Java Engineers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Java engineers vetted by Axiom Cortex™ for enterprise-grade Spring Boot applications. Expertise in performance tuning and cloud-native architecture.",
+  "technical_analysis": "Our vetting process for nearshore Java engineers involves a production-style incident. Candidates are given a Spring Boot application with excessive memory usage and slow startup times. They must use a profiler like YourKit or JProfiler to analyze a heap dump, identify the memory leak's source, and propose a fix. Success also requires optimizing for cloud-native performance; our nearshore Java engineers must recommend specific GC tuning parameters (e.g., G1GC) and strategize on creating a smaller, layered Docker image to reduce container size and achieve a p95 startup time of under 5 seconds. This practical challenge ensures that the nearshore Java engineers we provide are equipped to handle the demands of modern enterprise systems, focusing on reliability and efficiency.",
+  "interlink_slugs": [
+    "spring-boot",
+    "kubernetes",
+    "aws",
+    "gcp",
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": "Java engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

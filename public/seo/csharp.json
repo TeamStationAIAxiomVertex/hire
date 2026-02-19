@@ -1,0 +1,35 @@
+{
+  "slug": "csharp",
+  "name": ".NET (C#)",
+  "category": "Backend Services",
+  "categorySlug": "backend-services",
+  "seo_title": "Hire Nearshore .NET Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore .NET developers vetted by Axiom Cortex™ for building high-performance, cloud-native ASP.NET Core applications. U.S. time-zone alignment.",
+  "technical_analysis": "Our vetting for nearshore .NET developers centers on building modern, cloud-native applications. Candidates are tasked with containerizing an ASP.NET Core application, ensuring the Dockerfile is multi-stage to produce a minimal, secure final image. They must then configure the application for a cloud environment, correctly externalizing configuration and implementing health checks. We assess their deep knowledge of `async/await` patterns and their ability to use LINQ efficiently to avoid common performance traps like deferred execution in loops. The process ensures our nearshore .NET developers can deliver services that are not just functional but also scalable, observable, and cost-effective to run in the cloud. This practical approach is how we identify top-tier nearshore .NET developers.",
+  "interlink_slugs": [
+    "azure",
+    "react",
+    "angular",
+    "vue",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": ".NET (C#) engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

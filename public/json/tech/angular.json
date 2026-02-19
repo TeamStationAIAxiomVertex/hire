@@ -1,0 +1,48 @@
+{
+  "slug": "angular",
+  "name": "Angular",
+  "category": "Frontend & UI/UX",
+  "categorySlug": "frontend-web",
+  "seo_title": "Hire Senior Angular Developers | Enterprise-Grade Web Apps",
+  "meta_description": "Build scalable enterprise apps. Hire senior remote Angular talent vetted for RxJS, NgRx, and modular architecture expertise. Schedule a discovery call.",
+  "intro": "Angular delivers enterprise reliability when used with discipline: strong module boundaries, reactive data flows, and strict typing. We source engineers who treat reactivity and architecture as first-class concerns.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is change detection burning CPU?",
+      "problem": "Improper zone usage and heavy templates cause expensive checks and jank.",
+      "solution": "We apply OnPush, async pipes, memoized selectors, and smarter component boundaries.",
+      "kpi": "Reduced change detection work per frame"
+    },
+    {
+      "icon": {},
+      "pain": "Is state scattered across services and components?",
+      "problem": "Ad-hoc state leads to duplication and race conditions.",
+      "solution": "We consolidate with NgRx or signal-based stores and deterministic effects.",
+      "kpi": "Deterministic state transitions"
+    },
+    {
+      "icon": {},
+      "pain": "Hard-to-test modules and tight coupling?",
+      "problem": "Poor module boundaries make testability and reuse painful.",
+      "solution": "We enforce clean module layering and DI-driven seams for testing.",
+      "kpi": "Improved unit coverage and faster builds"
+    }
+  ],
+  "evaluation": [
+    "Change detection strategy and performance",
+    "RxJS mastery and NgRx patterns",
+    "Module architecture and DI",
+    "Routing and lazy loading strategy",
+    "Accessibility and testing"
+  ],
+  "technical_analysis": "Our Axiom Cortex™ assessment for nearshore Angular developers focuses on enterprise-grade architecture and performance. Candidates are presented with an application suffering from chaotic state management and poor change detection performance. They must refactor the component tree to use `OnPush` change detection, replace imperative service calls with a reactive data flow using NgRx or Signals, and correctly implement `trackBy` functions in loops. We require our nearshore Angular developers to use Angular DevTools to profile the application and quantify the reduction in change detection cycles. This ensures the nearshore Angular developers we provide can build applications that are not just feature-rich but also highly performant and maintainable.",
+  "interlink_slugs": [
+    "react",
+    "typescript",
+    "nextjs",
+    "vue",
+    "python",
+    "node"
+  ]
+}

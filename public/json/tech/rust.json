@@ -1,0 +1,50 @@
+{
+  "slug": "rust",
+  "name": "Rust",
+  "category": "Backend Services",
+  "categorySlug": "backend-services",
+  "seo_title": "Hire Nearshore Rust Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Rust developers vetted by Axiom Cortex™ for high-performance, memory-safe systems programming. U.S. time-zone alignment.",
+  "intro": "Rust guarantees memory safety and fearless concurrency, but requires a disciplined approach to ownership and lifetimes. Our nearshore Rust developers, vetted by Axiom Cortex™, build high-performance, resilient systems by mastering the borrow checker and Rust's powerful type system, all while aligning with U.S. time zones.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Struggling with memory safety bugs and data races?",
+      "problem": "Manual memory management in languages like C++ leads to vulnerabilities and crashes.",
+      "solution": "We leverage Rust's ownership model and borrow checker to eliminate these issues at compile time.",
+      "kpi": "Zero memory-related security vulnerabilities and crashes"
+    },
+    {
+      "icon": {},
+      "pain": "Is your application failing to scale with more cores?",
+      "problem": "Fear of data races leads to coarse-grained locking and performance bottlenecks.",
+      "solution": "We use fearless concurrency with `Send` and `Sync` traits to build scalable, thread-safe applications.",
+      "kpi": "Improved multi-core utilization and application throughput"
+    },
+    {
+      "icon": {},
+      "pain": "Are you fighting the borrow checker?",
+      "problem": "A misunderstanding of Rust's ownership rules leads to unidiomatic and complex code.",
+      "solution": "We write idiomatic Rust, leveraging patterns that work with the borrow checker, not against it.",
+      "kpi": "More maintainable, idiomatic, and performant Rust code"
+    }
+  ],
+  "evaluation": [
+    "Mastery of Rust's ownership, borrowing, and lifetimes",
+    "Fearless concurrency and thread safety",
+    "Idiomatic Rust and API design",
+    "Performance profiling and optimization",
+    "Error handling and testing"
+  ],
+  "technical_analysis": "We vet nearshore Rust developers on their ability to write safe, concurrent, and performant code. Candidates are given a C++ codebase with memory safety issues and race conditions, and they must re-implement a core module in Rust. A key evaluation is their use of the borrow checker, ownership rules, and lifetimes to eliminate entire classes of bugs. We require our nearshore Rust developers to use concurrency primitives like `Arc` and `Mutex` correctly to ensure thread safety. The final submission must be benchmarked to show performance parity or improvement over the original C++ code. This rigorous process ensures the nearshore Rust developers you hire can build truly reliable and efficient systems.",
+  "interlink_slugs": [
+    "go",
+    "csharp",
+    "python",
+    "java",
+    "react",
+    "nextjs",
+    "typescript",
+    "node"
+  ]
+}

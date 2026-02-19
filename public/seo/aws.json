@@ -1,0 +1,36 @@
+{
+  "slug": "aws",
+  "name": "AWS",
+  "category": "DevOps & Cloud",
+  "categorySlug": "devops-cloud",
+  "seo_title": "Hire Nearshore AWS Architects | TeamStation AI",
+  "meta_description": "Hire elite nearshore AWS architects vetted by Axiom Cortex™ for secure, cost-efficient, and highly-available cloud infrastructure. U.S. time-zone alignment.",
+  "technical_analysis": "We vet nearshore AWS architects with a scenario requiring a highly-available, multi-AZ architecture design for a web service with a 99.95% uptime SLO. The candidate must justify their choice between an Application Load Balancer and API Gateway, design IAM roles based on the principle of least privilege, and create a VPC with public and private subnets. Crucially, our nearshore AWS architects must also build in cost-governance from day one, proposing a strategy using AWS Budgets, Savings Plans, and automated instance scheduling. The final design is judged on its security posture, resiliency, and cost-efficiency. This ensures the nearshore AWS architects from our network can deliver enterprise-ready solutions that are both robust and economical, making them a trusted partner for CTOs.",
+  "interlink_slugs": [
+    "kubernetes",
+    "terraform",
+    "gcp",
+    "devops",
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ],
+  "intro": "AWS engineers from TeamStation AI deliver production-grade systems with cognitive calibration and measurable performance.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your architecture fragile under load?",
+      "problem": "Improper modularization and lack of performance awareness create brittle systems.",
+      "solution": "We ensure modular design, proper dependency isolation, and measurable optimization.",
+      "kpi": "Improved stability and throughput under production conditions"
+    }
+  ],
+  "evaluation": [
+    "Architecture design and modularity",
+    "Performance profiling and debugging",
+    "Security and code quality awareness",
+    "CI/CD readiness and automation mindset"
+  ]
+}

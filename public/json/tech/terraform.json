@@ -1,0 +1,52 @@
+{
+  "slug": "terraform",
+  "name": "Terraform",
+  "category": "DevOps & Cloud",
+  "categorySlug": "devops-cloud",
+  "seo_title": "Hire Nearshore Terraform Engineers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Terraform engineers vetted by Axiom Cortex™ for secure, modular, and automated infrastructure as code. U.S. time-zone alignment.",
+  "intro": "Terraform enables infrastructure as code, but without structure, it can lead to fragile, unmaintainable environments. Our nearshore Terraform engineers, vetted by Axiom Cortex™, build secure, modular, and automated infrastructure that scales with your needs, all while aligning with U.S. time zones.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your infrastructure brittle and hard to change?",
+      "problem": "Monolithic Terraform code and manual changes create a fragile and inconsistent environment.",
+      "solution": "We build modular, reusable Terraform components and enforce a strict code-driven workflow.",
+      "kpi": "Reduced change failure rate and faster infrastructure provisioning"
+    },
+    {
+      "icon": {},
+      "pain": "Struggling with infrastructure drift?",
+      "problem": "Manual changes and a lack of automation lead to a divergence between code and reality.",
+      "solution": "We implement automated drift detection and reconciliation to ensure a consistent state.",
+      "kpi": "Reduced infrastructure drift and improved security posture"
+    },
+    {
+      "icon": {},
+      "pain": "Is your Terraform code insecure and non-compliant?",
+      "problem": "A lack of security scanning and policy enforcement exposes your infrastructure to risk.",
+      "solution": "We integrate security scanning and policy-as-code into the Terraform workflow.",
+      "kpi": "Reduced security vulnerabilities and improved compliance"
+    }
+  ],
+  "evaluation": [
+    "Terraform modules and composition",
+    "State management and backend configuration",
+    "Infrastructure security and policy-as-code",
+    "CI/CD for infrastructure automation",
+    "Cloud-specific provider expertise (AWS, GCP, Azure)"
+  ],
+  "technical_analysis": "We assess nearshore Terraform engineers on their ability to build secure, modular, and automated infrastructure. Candidates are tasked with creating a multi-environment infrastructure on a major cloud provider using Terraform. They must demonstrate a deep understanding of Terraform modules, state management, and remote backends. We require our nearshore Terraform engineers to implement security best practices, including policy-as-code with Sentinel or OPA, and to integrate their Terraform workflow into a CI/CD pipeline. The final result is a secure, scalable, and maintainable infrastructure that can be managed entirely through code. This ensures the nearshore Terraform engineers you hire can build and manage a truly modern infrastructure.",
+  "interlink_slugs": [
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "docker",
+    "react",
+    "nextjs",
+    "typescript",
+    "python",
+    "node"
+  ]
+}

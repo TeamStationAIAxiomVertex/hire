@@ -1,0 +1,50 @@
+{
+  "slug": "vue",
+  "name": "Vue.js",
+  "category": "Frontend & UI/UX",
+  "categorySlug": "frontend-web",
+  "seo_title": "Hire Nearshore Vue.js Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore Vue.js developers vetted by Axiom Cortex™ for Composition API, Pinia, and performance optimization. U.S. time-zone alignment.",
+  "intro": "Vue.js provides exceptional developer experience, but without discipline, it can lead to performance bottlenecks. Our nearshore Vue developers, vetted by Axiom Cortex™, master the Composition API and reactive primitives to build UIs that are as fast as they are maintainable, all while aligning with U.S. time zones.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Re-renders slowing down your UI?",
+      "problem": "Incorrectly structured components and improper use of reactivity cause excessive re-renders.",
+      "solution": "We enforce granular components, `shallowRef`, and computed properties to minimize update costs.",
+      "kpi": "Reduced component update frequency and faster interactions"
+    },
+    {
+      "icon": {},
+      "pain": "Is your state management a tangled mess?",
+      "problem": "Prop drilling and scattered state logic make the app hard to reason about and debug.",
+      "solution": "We implement Pinia with typed, modular stores and clear action/getter patterns.",
+      "kpi": "Deterministic state transitions and reduced bugs"
+    },
+    {
+      "icon": {},
+      "pain": "Are large bundle sizes hurting your load times?",
+      "problem": "Lack of code splitting and heavy third-party libraries bloat the initial bundle.",
+      "solution": "We implement route-based code splitting and analyze bundle composition to keep it lean.",
+      "kpi": "Smaller initial bundle size and improved LCP"
+    }
+  ],
+  "evaluation": [
+    "Mastery of the Composition API and reactivity system",
+    "Pinia for scalable state management",
+    "Vue Router with lazy loading and guards",
+    "Performance profiling and optimization",
+    "Testing with Vitest and Vue Test Utils"
+  ],
+  "technical_analysis": "Our Axiom Cortex™ vetting for nearshore Vue.js developers involves a performance-critical task. Candidates are given a slow Vue application and must use Vue Devtools to diagnose the bottlenecks. A successful candidate will identify and fix issues like improper reactivity usage, component structure flaws, and inefficient list rendering. They must demonstrate their ability to refactor using the Composition API for better logic reuse and performance. We expect our nearshore Vue developers to quantify the performance gains, ensuring they can deliver highly optimized and maintainable applications.",
+  "interlink_slugs": [
+    "typescript",
+    "pinia",
+    "react",
+    "angular",
+    "nextjs",
+    "playwright",
+    "python",
+    "node"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "typescript",
+  "name": "TypeScript",
+  "category": "Frontend & UI/UX",
+  "categorySlug": "frontend-web",
+  "seo_title": "Hire Nearshore TypeScript Developers | TeamStation AI",
+  "meta_description": "Hire elite nearshore TypeScript developers vetted by Axiom Cortex™ for scalable, type-safe frontends and enterprise-grade reliability. U.S. time-zone alignment.",
+  "intro": "TypeScript is more than types—it’s a design philosophy. Our nearshore TypeScript developers treat the type system as an architectural contract, ensuring safer, self-documenting, and refactor-friendly codebases that scale with confidence.",
+  "pains": [
+    {
+      "icon": {},
+      "pain": "Is your codebase littered with any types?",
+      "problem": "The any type is a viral infection in a TypeScript codebase. It silences the compiler and erodes type safety.",
+      "solution": "Our engineers demonstrate disciplined use of generics, conditional, and mapped types to precisely model complex data and APIs. We enforce compiler rules that eliminate unsafe casts before they reach production.",
+      "kpi": "Zero any types; measurable reduction in runtime type errors"
+    },
+    {
+      "icon": {},
+      "pain": "Are you struggling to type complex third-party libraries?",
+      "problem": "Untyped dependencies create blind spots and unexpected runtime behavior.",
+      "solution": "Our nearshore TypeScript developers author custom declaration files and use module augmentation to restore full static analysis coverage across your ecosystem.",
+      "kpi": "Comprehensive typing coverage and reliable IDE intelligence"
+    },
+    {
+      "icon": {},
+      "pain": "Is your build slow due to TS compilation?",
+      "problem": "Misconfigured compiler options and inefficient build pipelines make TypeScript feel sluggish.",
+      "solution": "We benchmark and optimize tsconfig structures, adopt project references, and leverage SWC or esbuild to accelerate builds while preserving type accuracy.",
+      "kpi": "Improved incremental build performance and faster CI feedback loops"
+    }
+  ],
+  "evaluation": [
+    "Advanced generics, conditional and mapped types",
+    "Compiler configuration and incremental builds",
+    "Declaration files and module augmentation",
+    "Type inference, narrowing, and control-flow analysis",
+    "Integration with SWC, esbuild, and modern frameworks"
+  ],
+  "technical_analysis": "Our Axiom Cortex™ vetting process evaluates how candidates use TypeScript as an architectural safety net. Each nearshore TypeScript developer is tasked with refactoring a codebase suffering from type leaks, circular generics, and compile-time bottlenecks. They must enforce strict type boundaries, optimize compiler performance, and achieve <300 ms incremental rebuilds. This ensures our nearshore TypeScript developers can maintain enterprise-scale safety and velocity without trade-offs.",
+  "interlink_slugs": [
+    "react",
+    "nodejs",
+    "nextjs",
+    "angular",
+    "typescript",
+    "python",
+    "node"
+  ]
+}
