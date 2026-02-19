@@ -37,7 +37,7 @@ const rolesSchema = {
  const faqs = [
     { q: "How fast can we start?", a: "Most teams see shortlists in 72–96 hours and offers in ~9 days." },
     { q: "What seniorities are available?", a: "Senior, Staff, Principal, and Fractional Architecture." },
-    { q: "Do you replace if a fit isn’t right?", a: "Yes—alignment guarantee with fast backfills." },
+    { q: "Do you replace if a fit isn't right?", a: "Yes—alignment guarantee with fast backfills." },
     { q: "How is Axiom Cortex™ different from code tests?", a: "We evaluate reasoning, collaboration, and trade-off intelligence—not trivia recall." },
  ];
 
@@ -107,7 +107,7 @@ const includedServices = [
 
 const pricingFactors = [
     { title: "Role & Talent Signal", items: ["Level & scope (L1–L4), ownership, leadership signals", "Stack fit & specialization (AI/ML, Salesforce, etc.)", "Interview evidence (technical correctness, mental model)", "Candidate salary requirements & scarcity premiums"] },
-    { title: "Country & Statutory Reality", items: ["Holidays/PTO cadence that won’t break sprints", "Statutory items (social contributions, mandated bonuses)", "FX, banking & cross-border transfer fees", "City-level compensation benchmarks"] },
+    { title: "Country & Statutory Reality", items: ["Holidays/PTO cadence that won't break sprints", "Statutory items (social contributions, mandated bonuses)", "FX, banking & cross-border transfer fees", "City-level compensation benchmarks"] },
     { title: "Platform Services & Risk Shield (Included)", items: ["Company devices with MDM, patch SLAs, endpoint monitoring", "Security workflows, IP/NDAs, incident response guardrails", "Day-one readiness (access, 30-60-90 plan)", "Employer of Record (EOR)—we carry employer liability", "Background checks, contracts, payroll & benefits admin"] },
     { title: "Delivery & Utilization (Time = Money)", items: ["Time-to-Offer ≈ 9 days; first PR 7–14 days", "Short-list relevance ≥85%; mismatch ≤10%", "Fewer vacancy days = less ARR lost to hiring latency", "Faster ramp = earlier value recognition", "Predictable cost per productive engineer"] }
 ];
@@ -333,15 +333,15 @@ export default function RolesPage() {
         <section className="text-center border-t pt-16 mt-16">
             <div className="relative rounded-xl border border-border p-8 md:p-12 bg-[radial-gradient(80%_60%_at_50%_0%,rgba(138,180,255,0.1),transparent_70%)]">
                 <h2 className="font-semibold text-3xl mb-4 tracking-tighter">Elite, Not Top 5%</h2>
-                <p className="text-muted text-lg max-w-3xl mx-auto">Most platforms chase test scores. We map cognition under pressure—who leads, adapts, and multiplies team intelligence. That’s the difference between fast and elite.</p>
+                <p className="text-muted text-lg max-w-3xl mx-auto">Most platforms chase test scores. We map cognition under pressure—who leads, adapts, and multiplies team intelligence. That's the difference between fast and elite.</p>
             </div>
         </section>
         
         <section className="mt-20 border-t border-border pt-12 text-center max-w-3xl mx-auto">
             <p className="text-muted leading-7">
-                “A U.S. healthtech scaled its product platform using LATAM engineers from TeamStation.
+                "A U.S. healthtech scaled its product platform using LATAM engineers from TeamStation.
                 After cognitive calibration, average sprint velocity improved 38%, and onboarding dropped from 18 to 9 days.
-                The key wasn’t better code — it was better alignment of reasoning modes.”
+                The key wasn't better code — it was better alignment of reasoning modes."
             </p>
         </section>
 
@@ -392,7 +392,7 @@ export default function RolesPage() {
             </div>
              <div className="mt-12 text-center max-w-3xl mx-auto">
                 <h2 className="font-semibold text-3xl mb-4 tracking-tighter">Build teams that think together.</h2>
-                <p className="text-muted text-lg">TeamStation’s AI doesn’t just find developers — it assembles cognitive ecosystems. Talk to a Co-Pilot and see how precision hiring becomes a competitive advantage.</p>
+                <p className="text-muted text-lg">TeamStation's AI doesn't just find developers — it assembles cognitive ecosystems. Talk to a Co-Pilot and see how precision hiring becomes a competitive advantage.</p>
              </div>
         </section>
     </main>

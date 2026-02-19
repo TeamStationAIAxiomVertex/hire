@@ -36,7 +36,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Is your GraphQL schema difficult to evolve and maintain?",
         problem:
-          "A poorly designed schema with inconsistent naming, weak typing, or overly complex object graphs becomes a maintenance nightmare. It’s difficult for frontend developers to use and even harder to extend without introducing breaking changes.",
+          "A poorly designed schema with inconsistent naming, weak typing, or overly complex object graphs becomes a maintenance nightmare. It's difficult for frontend developers to use and even harder to extend without introducing breaking changes.",
         solution:
           "Our experts are proficient in Schema-First Design. They are vetted on their ability to create a clean, consistent, and well-documented schema that serves as a single source of truth. They understand how to evolve a schema gracefully using techniques that avoid breaking existing clients.",
         kpi: "Schema-First Design and Evolvability",
@@ -45,7 +45,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Are you struggling to implement secure and granular access control?",
         problem:
-          "GraphQL’s single endpoint can make it difficult to implement fine-grained authorization. A naive implementation often grants either all-or-nothing access, creating significant security risks.",
+          "GraphQL's single endpoint can make it difficult to implement fine-grained authorization. A naive implementation often grants either all-or-nothing access, creating significant security risks.",
         solution:
           "We look for engineers with experience in GraphQL security. They demonstrate the ability to implement authorization at the resolver level, ensuring that users can only access the data they are permitted to see, even within a single, complex query.",
         kpi: "Resolver-Level Authorization and Security",
@@ -84,7 +84,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Is your monolithic application a bottleneck for your team?",
         problem:
-          "A large, monolithic application can be a major drag on productivity. It’s difficult to understand, slow to test, and risky to deploy, preventing your teams from moving quickly.",
+          "A large, monolithic application can be a major drag on productivity. It's difficult to understand, slow to test, and risky to deploy, preventing your teams from moving quickly.",
         solution:
           "We vet for architects who are experts in decomposing monoliths and designing scalable microservice architectures. They must demonstrate the ability to identify the right service boundaries and to create a system of small, independent services that can be developed, deployed, and scaled independently.",
         kpi: "Increased Team Autonomy and Deployment Frequency",
@@ -146,16 +146,16 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         problem:
           "REST over HTTP/1.1 can be slow and inefficient for high-volume, low-latency communication between microservices, due to its text-based nature and the overhead of establishing new connections for each request.",
         solution:
-          "We vet for engineers who are experts in building high-performance microservices with gRPC. They must demonstrate the ability to use gRPC’s binary protocol over HTTP/2 to build a communication layer that is fast, efficient, and supports streaming.",
+          "We vet for engineers who are experts in building high-performance microservices with gRPC. They must demonstrate the ability to use gRPC's binary protocol over HTTP/2 to build a communication layer that is fast, efficient, and supports streaming.",
         kpi: "Low-Latency and High-Throughput Communication",
       },
       {
         icon: "AlertTriangle",
         pain: "Are you struggling with a lack of strong contracts between your services?",
         problem:
-          "Without a strong, well-defined API contract, it’s easy for services to get out of sync, leading to runtime errors and integration nightmares.",
+          "Without a strong, well-defined API contract, it's easy for services to get out of sync, leading to runtime errors and integration nightmares.",
         solution:
-          "Our engineers are proficient in Protocol Buffers, gRPC’s interface definition language. They are vetted on their ability to design a clear, strongly-typed API contract that serves as a single source of truth for your services, enabling you to generate type-safe client and server code in any language.",
+          "Our engineers are proficient in Protocol Buffers, gRPC's interface definition language. They are vetted on their ability to design a clear, strongly-typed API contract that serves as a single source of truth for your services, enabling you to generate type-safe client and server code in any language.",
         kpi: "Strongly-Typed and Language-Agnostic APIs",
       },
       {
@@ -193,7 +193,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
     meta_description:
       "Design and build APIs that developers love to use. Hire nearshore REST API Design experts vetted for building clean, consistent, and well-documented APIs.",
     intro:
-      "A well-designed REST API is a critical asset for any modern business. It’s the front door to your platform, and it needs to be clean, consistent, and easy to use. You need an expert who understands the principles of good API design and can create an API that your developers and partners will love. Our vetting process, powered by Axiom Cortex™, finds engineers who are masters of API design. We test their ability to design a resource-oriented API, to handle versioning and evolution, and to create clear and comprehensive documentation.",
+      "A well-designed REST API is a critical asset for any modern business. It's the front door to your platform, and it needs to be clean, consistent, and easy to use. You need an expert who understands the principles of good API design and can create an API that your developers and partners will love. Our vetting process, powered by Axiom Cortex™, finds engineers who are masters of API design. We test their ability to design a resource-oriented API, to handle versioning and evolution, and to create clear and comprehensive documentation.",
     pains: [
       {
         icon: "AlertTriangle",
@@ -208,7 +208,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Are you afraid to make changes to your API for fear of breaking existing clients?",
         problem:
-          "Without a clear versioning and evolution strategy, your API can become a brittle monolith that is impossible to change without breaking your users’ applications.",
+          "Without a clear versioning and evolution strategy, your API can become a brittle monolith that is impossible to change without breaking your users' applications.",
         solution:
           "Our engineers are proficient in API versioning and evolution strategies. They are vetted on their ability to design an API that can evolve over time without breaking existing clients, ensuring a stable and reliable platform for your users.",
         kpi: "Stable and Evolvable API Design",
@@ -217,7 +217,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Is your API documentation always out of date?",
         problem:
-          "Manually writing API documentation is time-consuming and error-prone. It’s almost guaranteed to become out of sync with the actual API implementation, leading to confusion and frustration for your users.",
+          "Manually writing API documentation is time-consuming and error-prone. It's almost guaranteed to become out of sync with the actual API implementation, leading to confusion and frustration for your users.",
         solution:
           "Our experts are masters of the OpenAPI Specification (formerly Swagger). We vet their ability to design APIs with a schema-first approach, which allows them to automatically generate interactive documentation, client SDKs, and even server stubs, ensuring your documentation is always accurate and up-to-date.",
         kpi: "Accurate, auto-generated documentation with OpenAPI"
@@ -285,7 +285,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Are you unable to gain new insights from your existing data?",
         problem:
-          "Your current data model was designed to answer a specific set of questions. When new business requirements emerge, it’s often difficult or impossible to answer them without a costly and complex data migration.",
+          "Your current data model was designed to answer a specific set of questions. When new business requirements emerge, it's often difficult or impossible to answer them without a costly and complex data migration.",
         solution:
           "We hire engineers who see the event stream as a source of infinite potential. They are experts at building new projections from the existing event log to answer new business questions, without ever having to change the way data is written. This provides incredible business agility.",
         kpi: "Business agility through on-demand data projections"
@@ -311,13 +311,13 @@ export const architectureIntegrations: Record<string, TechEntry> = {
     meta_description:
       "Tackle complexity in your software. Hire nearshore DDD experts vetted for their ability to model complex business domains and build software that lasts.",
     intro:
-      "Domain-Driven Design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model. It’s about placing the business domain at the heart of your software and creating a shared understanding between technical and domain experts. You need an expert who can use the principles of DDD to build software that truly meets the needs of your business and can evolve as your business evolves. Our vetting process, powered by Axiom Cortex™, finds engineers who are masters of DDD. We test their ability to collaborate with domain experts, to model a complex domain, and to implement that model in clean, maintainable code.",
+      "Domain-Driven Design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model. It's about placing the business domain at the heart of your software and creating a shared understanding between technical and domain experts. You need an expert who can use the principles of DDD to build software that truly meets the needs of your business and can evolve as your business evolves. Our vetting process, powered by Axiom Cortex™, finds engineers who are masters of DDD. We test their ability to collaborate with domain experts, to model a complex domain, and to implement that model in clean, maintainable code.",
     pains: [
       {
         icon: "AlertTriangle",
         pain: "Is your software a poor reflection of your actual business?",
         problem:
-          "When developers don’t understand the business domain, they build software that is a poor fit for the business’s needs, leading to a system that is complex, difficult to use, and a drag on the business.",
+          "When developers don't understand the business domain, they build software that is a poor fit for the business's needs, leading to a system that is complex, difficult to use, and a drag on the business.",
         solution:
           "We vet for engineers who are experts in collaborating with domain experts to create a rich, shared understanding of the business domain. They must demonstrate the ability to use techniques like event storming to explore the domain and to create a ubiquitous language that is shared by everyone.",
         kpi: "Software that Accurately Models the Business",
@@ -326,7 +326,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Is your codebase a 'big ball of mud' that is impossible to change?",
         problem:
-          "A codebase that doesn’t have clear boundaries and a well-defined architecture can quickly become a 'big ball of mud' that is difficult to understand, maintain, and evolve.",
+          "A codebase that doesn't have clear boundaries and a well-defined architecture can quickly become a 'big ball of mud' that is difficult to understand, maintain, and evolve.",
         solution:
           "Our engineers are proficient in the strategic and tactical patterns of DDD. They are vetted on their ability to use patterns like Bounded Contexts, Aggregates, and Entities to create a clean, modular, and maintainable codebase that can evolve with your business.",
         kpi: "Clean, Modular, and Evolvable Architecture",
@@ -456,7 +456,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Are you struggling to get a unified view of your API traffic?",
         problem:
-          "When every microservice has its own logging and metrics, it’s impossible to get a consolidated view of API usage, performance, and errors. This makes it difficult to monitor the health of your overall API landscape.",
+          "When every microservice has its own logging and metrics, it's impossible to get a consolidated view of API usage, performance, and errors. This makes it difficult to monitor the health of your overall API landscape.",
         solution:
           "Our experts are masters of API observability. We vet their ability to configure the API Gateway to generate centralized logs, metrics, and traces for all API traffic, providing a single pane of glass for monitoring and troubleshooting.",
         kpi: "Centralized API observability and analytics"
@@ -465,9 +465,9 @@ export const architectureIntegrations: Record<string, TechEntry> = {
         icon: "AlertTriangle",
         pain: "Is your team manually configuring API access for every new client?",
         problem:
-          "Manually provisioning API keys and setting up access policies for every new developer or partner is a slow, error-prone process that doesn’t scale. It creates a bottleneck for onboarding new users to your platform.",
+          "Manually provisioning API keys and setting up access policies for every new developer or partner is a slow, error-prone process that doesn't scale. It creates a bottleneck for onboarding new users to your platform.",
         solution:
-          "We hire engineers who are experts in API product management. They are vetted on their ability to use the API Gateway’s developer portal and key management features to create a self-service experience for API consumers, automating the onboarding process and accelerating adoption.",
+          "We hire engineers who are experts in API product management. They are vetted on their ability to use the API Gateway's developer portal and key management features to create a self-service experience for API consumers, automating the onboarding process and accelerating adoption.",
         kpi: "A self-service developer portal for API consumers"
       }
     ],
@@ -495,7 +495,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
     meta_description:
       "Architect systems that can handle massive scale. Hire nearshore System Design experts vetted for their ability to design and operate large-scale systems.",
     intro:
-      "System design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements. You need an expert who can think at a high level about how to build a system that is scalable, reliable, and maintainable. Our vetting process, powered by Axiom Cortex™, is a deep evaluation of an engineer’s ability to design complex, large-scale systems. We test their knowledge of architectural patterns, their ability to reason about trade-offs, and their understanding of how to build a system that can evolve over time.",
+      "System design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements. You need an expert who can think at a high level about how to build a system that is scalable, reliable, and maintainable. Our vetting process, powered by Axiom Cortex™, is a deep evaluation of an engineer's ability to design complex, large-scale systems. We test their knowledge of architectural patterns, their ability to reason about trade-offs, and their understanding of how to build a system that can evolve over time.",
     pains: [
       {
         icon: "AlertTriangle",
@@ -590,7 +590,7 @@ export const architectureIntegrations: Record<string, TechEntry> = {
           "Returning detailed error messages and stack traces to the client can reveal information about your internal system architecture, library versions, and data structures. This information is a goldmine for an attacker.",
         solution:
           "We hire engineers who understand the principle of information hiding. They are vetted on their ability to design APIs that return generic, non-informative error messages to the client while logging the detailed error information securely on the server side for debugging.",
-        kpi: "Generic error messages that don’t leak internal information"
+        kpi: "Generic error messages that don't leak internal information"
       }
     ],
     evaluation: [

@@ -205,7 +205,7 @@ export default function RolePage({ params }: PageProps) {
                                     <ShieldQuestion className="h-4 w-4" />
                                     <span>The Business Impact</span>
                                  </h3>
-                                <p className="text-sm text-muted mt-2">This isn’t just a technical issue; it’s a drag on velocity and a source of production risk. A single mis-hire here costs you revenue, team morale, and market position.</p>
+                                <p className="text-sm text-muted mt-2">This isn't just a technical issue; it's a drag on velocity and a source of production risk. A single mis-hire here costs you revenue, team morale, and market position.</p>
                             </div>
                         </CardContent>
                         <CardFooter className="bg-bg p-6 border-t">

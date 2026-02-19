@@ -20,8 +20,8 @@ export function DatabasesSEOArticle() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "The CTO’s Guide to Hiring Elite Database Engineers in LATAM",
-    "description": "An architectural deep-dive on sourcing nearshore database experts who can architect for scale, performance, and reliability across SQL and NoSQL systems, vetted by TeamStation’s Axiom Cortex™.",
+    "headline": "The CTO's Guide to Hiring Elite Database Engineers in LATAM",
+    "description": "An architectural deep-dive on sourcing nearshore database experts who can architect for scale, performance, and reliability across SQL and NoSQL systems, vetted by TeamStation's Axiom Cortex™.",
     "author": { "@type": "Organization", "name": "TeamStation AI" },
     "publisher": { "@type": "Organization", "name": "TeamStation AI" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hire.teamstation.dev/roles/databases" }
@@ -41,12 +41,12 @@ export function DatabasesSEOArticle() {
         </div>
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                Traditional nearshore vendors fail catastrophically in this domain. They provide ’DBAs’ who can run backup scripts or ’developers’ who can use a simple ORM, but they lack the deep architectural knowledge required for modern data systems. They don’t vet for an understanding of <strong>query execution plans, indexing strategies, or the fundamental trade-offs between SQL and NoSQL</strong>. This leaves you with a slow, expensive, and brittle data infrastructure that is a constant source of production incidents.
+                Traditional nearshore vendors fail catastrophically in this domain. They provide 'DBAs' who can run backup scripts or 'developers' who can use a simple ORM, but they lack the deep architectural knowledge required for modern data systems. They don't vet for an understanding of <strong>query execution plans, indexing strategies, or the fundamental trade-offs between SQL and NoSQL</strong>. This leaves you with a slow, expensive, and brittle data infrastructure that is a constant source of production incidents.
             </p>
         </div>
          <div className="bg-bg-elev border rounded-xl p-6">
              <p>
-                TeamStation AI’s <Link href="https://cto.teamstation.dev/research/axiom-cortex-scientific-report" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Axiom Cortex™ vetting engine</strong></Link> was engineered to find the true database masters. We assess an engineer’s ability to think in terms of data performance at scale, their discipline in data modeling, and their ability to choose the right tool for the job. We deliver architects who can build a data layer that is a strategic asset, not an operational burden.
+                TeamStation AI's <Link href="https://cto.teamstation.dev/research/axiom-cortex-scientific-report" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Axiom Cortex™ vetting engine</strong></Link> was engineered to find the true database masters. We assess an engineer's ability to think in terms of data performance at scale, their discipline in data modeling, and their ability to choose the right tool for the job. We deliver architects who can build a data layer that is a strategic asset, not an operational burden.
             </p>
         </div>
       </div>
@@ -56,18 +56,18 @@ export function DatabasesSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: Your application is slow, and everyone blames the ’database.’</span>
+              <span>Pain: Your application is slow, and everyone blames the 'database.'</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="font-semibold text-text mb-2">The Business Impact:</p>
             <p>
-             Slow API responses and a sluggish UI are often symptoms of a database struggling under load. When a developer writes an inefficient query that leads to a full table scan, it doesn’t just slow down one user—it consumes server resources and impacts every user. This leads to customer churn, higher infrastructure costs, and a reputation for poor performance.
+             Slow API responses and a sluggish UI are often symptoms of a database struggling under load. When a developer writes an inefficient query that leads to a full table scan, it doesn't just slow down one user—it consumes server resources and impacts every user. This leads to customer churn, higher infrastructure costs, and a reputation for poor performance.
             </p>
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>
                 <p className="mt-2 text-sm">
-                 We vet for engineers who are masters of <strong>query optimization</strong>. They are required to demonstrate the ability to analyze a query execution plan, identify bottlenecks, and apply the correct indexing strategy (e.g., B-Tree, GIN, GiST) to achieve optimal performance. They don’t just write code that works; they write code that scales.
+                 We vet for engineers who are masters of <strong>query optimization</strong>. They are required to demonstrate the ability to analyze a query execution plan, identify bottlenecks, and apply the correct indexing strategy (e.g., B-Tree, GIN, GiST) to achieve optimal performance. They don't just write code that works; they write code that scales.
                 </p>
             </div>
           </CardContent>
@@ -77,13 +77,13 @@ export function DatabasesSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: You’re using the wrong database for the job.</span>
+              <span>Pain: You're using the wrong database for the job.</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="font-semibold text-text mb-2">The Business Impact:</p>
             <p>
-              Using a relational database for a use case that demands the flexibility of a document store (or vice-versa) leads to a system that is overly complex, difficult to evolve, and performs poorly. This ’golden hammer’ syndrome, where a team uses the one tool they know for every problem, is a major source of architectural technical debt.
+              Using a relational database for a use case that demands the flexibility of a document store (or vice-versa) leads to a system that is overly complex, difficult to evolve, and performs poorly. This 'golden hammer' syndrome, where a team uses the one tool they know for every problem, is a major source of architectural technical debt.
             </p>
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>

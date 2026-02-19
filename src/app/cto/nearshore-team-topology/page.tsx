@@ -20,8 +20,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Check, Zap, GitBranch, Scale, BrainCircuit, ShieldCheck, ListChecks, TestTube, Users, Wand, Lightbulb, Shield, Shuffle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "CTO’s Guide to Nearshore Team Topology | TeamStation AI",
-  description: "A CTO’s guide to building aligned, heterogeneous nearshore teams using product pods, platform rails, and AI-driven hygiene for high-performance.",
+  title: "CTO's Guide to Nearshore Team Topology | TeamStation AI",
+  description: "A CTO's guide to building aligned, heterogeneous nearshore teams using product pods, platform rails, and AI-driven hygiene for high-performance.",
   alternates: {
     canonical: "/cto/nearshore-team-topology",
   },
@@ -38,7 +38,7 @@ const jsonLd = {
     "@graph": [
       {
         "@type": "TechArticle",
-        "headline": "Nearshore Team Topology: A CTO’s Guide to Building Aligned Teams",
+        "headline": "Nearshore Team Topology: A CTO's Guide to Building Aligned Teams",
         "url": "https://hire.teamstation.dev/cto/nearshore-team-topology",
         "keywords": "nearshore team topology, cto guide, software development teams, ai-driven hiring, product pods",
         "publisher": {
@@ -56,7 +56,7 @@ const jsonLd = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How is “heterogeneous” different from “chaotic”?",
+            "name": "How is \"heterogeneous\" different from \"chaotic\"?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Complementary roles with platform rails, PR prompts, and SLOs. Variation stays productive—not noisy."
@@ -88,7 +88,7 @@ const jsonLd = {
           },
           {
             "@type": "Question",
-            "name": "What makes TeamStation’s vetting process more accurate than traditional interviews?",
+            "name": "What makes TeamStation's vetting process more accurate than traditional interviews?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Our adaptive cognitive vetting system evaluates reasoning depth, ambiguity handling, and collaboration tempo, achieving 90% retention and 42% faster productivity onboarding."
@@ -213,10 +213,10 @@ export default function NearshoreTeamTopology() {
                 <div className="relative rounded-xl border border-border p-8 md:p-12 text-center bg-[radial-gradient(80%_60%_at_50%_0%,rgba(138,180,255,0.1),transparent_70%)]">
                     <p className="text-sm font-semibold tracking-wide text-primary">CTO Guide</p>
                     <h1 className="mt-2 text-3xl font-semibold leading-tight text-text">
-                      A CTO’s Guide to Nearshore Team Topology
+                      A CTO's Guide to Nearshore Team Topology
                     </h1>
                     <p className="mt-3 max-w-3xl mx-auto text-base text-muted">
-                      Stop hiring for headcount. Start architecting for cognitive alignment. The right nearshore team isn’t a monolith; it’s a carefully composed, heterogeneous group of specialists and generalists who multiply each other’s intelligence. This guide provides a framework for building such teams.
+                      Stop hiring for headcount. Start architecting for cognitive alignment. The right nearshore team isn't a monolith; it's a carefully composed, heterogeneous group of specialists and generalists who multiply each other's intelligence. This guide provides a framework for building such teams.
                     </p>
                 </div>
             </header>
@@ -227,13 +227,13 @@ export default function NearshoreTeamTopology() {
                 </h2>
                 <div className="mt-4 rounded-xl border bg-bg-elev p-6">
                   <p className="text-muted">
-                    Most platforms chase numbers — rank coders by test scores and call them “Top 5%.” We built something different.
+                    Most platforms chase numbers — rank coders by test scores and call them "Top 5%." We built something different.
                   </p>
                   <p className="mt-3 text-muted">
                     <span className="font-medium text-text">Qualitative calibration</span> finds who can lead, adapt, and multiply the intelligence of a team.
                   </p>
                   <p className="mt-3 text-muted">
-                    We don’t source talent. We engineer alignment. Hire elite minds in Latin America, vetted through cognitive depth — not coding trivia.
+                    We don't source talent. We engineer alignment. Hire elite minds in Latin America, vetted through cognitive depth — not coding trivia.
                   </p>
                 </div>
             </section>
@@ -303,7 +303,7 @@ export default function NearshoreTeamTopology() {
                     </h2>
                     <ul className="mt-3 list-disc space-y-2 pl-6 text-muted text-sm">
                         <li>
-                            Standard prompts for PRs, tests, and threat-model notes; “AI-assisted” markers in commits.
+                            Standard prompts for PRs, tests, and threat-model notes; "AI-assisted" markers in commits.
                         </li>
                         <li>Secret scanning, dependency policies, and SBOM on every build.</li>
                         <li>
@@ -331,7 +331,7 @@ export default function NearshoreTeamTopology() {
                   <Card>
                     <CardHeader><CardTitle className="text-base">Solution</CardTitle></CardHeader>
                     <CardContent className="text-sm text-muted">
-                        A unified platform aligns hiring, cognition, and performance to your team’s cognitive DNA.
+                        A unified platform aligns hiring, cognition, and performance to your team's cognitive DNA.
                     </CardContent>
                   </Card>
                    <Card>
@@ -448,7 +448,7 @@ export default function NearshoreTeamTopology() {
                 </h2>
                 <Accordion type="single" collapsible className="w-full mt-4">
                     <AccordionItem value="item-1">
-                        <AccordionTrigger>How is “heterogeneous” different from “chaotic”?</AccordionTrigger>
+                        <AccordionTrigger>How is "heterogeneous" different from "chaotic"?</AccordionTrigger>
                         <AccordionContent>
                         Roles are complementary and explicit. Platform rails, PR prompts, and SLOs keep variation productive—not noisy.
                         </AccordionContent>
@@ -474,7 +474,7 @@ export default function NearshoreTeamTopology() {
                       </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-5">
-                      <AccordionTrigger>What makes TeamStation’s vetting process more accurate than traditional interviews?</AccordionTrigger>
+                      <AccordionTrigger>What makes TeamStation's vetting process more accurate than traditional interviews?</AccordionTrigger>
                       <AccordionContent>
                         Traditional interviews measure recall. We measure <strong>reasoning depth</strong> and <strong>context adaptation</strong>. 
                         Our adaptive cognitive vetting system analyzes how candidates process ambiguity, communicate under load, and synthesize solutions collaboratively.
@@ -499,7 +499,7 @@ export default function NearshoreTeamTopology() {
                     <AccordionItem value="item-8">
                       <AccordionTrigger>What role does AI play once the team is active?</AccordionTrigger>
                       <AccordionContent>
-                        After deployment, TeamStation’s AI monitors <strong>performance telemetry</strong>, <strong>PR feedback patterns</strong>, and <strong>sprint variance</strong>.  
+                        After deployment, TeamStation's AI monitors <strong>performance telemetry</strong>, <strong>PR feedback patterns</strong>, and <strong>sprint variance</strong>.  
                         These signals retrain the system, improving future team calibration.  
                         The model literally learns from your engineering culture to build better teams with every iteration.
                       </AccordionContent>
@@ -529,7 +529,7 @@ export default function NearshoreTeamTopology() {
                 </h2>
                 <p className="mt-2 text-muted">
                   Unify hiring, cognition, onboarding, and performance in one
-                  self-learning environment. That’s the Nearshore IT Co-Pilot.
+                  self-learning environment. That's the Nearshore IT Co-Pilot.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-3">
                     <Button asChild>

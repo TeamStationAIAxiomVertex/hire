@@ -1,6 +1,6 @@
-&quot;use client&quot;;
+"use client";
 
-import { useEffect, useState } from &quot;react&quot;;
+import { useEffect, useState } from "react";
 
 /** @Spec
  * Feature: SchemaInjector
@@ -21,12 +21,12 @@ export function SchemaInjector({ schema: initialSchema }: { schema: any }) {
     const newSchema = JSON.parse(JSON.stringify(initialSchema));
 
     // Find the WebPage node and update its dateModified property
-    const webPageIndex = newSchema[&quot;@graph&quot;]?.findIndex(
-      (node: any) => node[&quot;@type&quot;] === &quot;WebPage&quot;
+    const webPageIndex = newSchema["@graph"]?.findIndex(
+      (node: any) => node["@type"] === "WebPage"
     );
 
     if (webPageIndex > -1) {
-      newSchema[&quot;@graph&quot;][webPageIndex].dateModified = new Date().toISOString();
+      newSchema["@graph"][webPageIndex].dateModified = new Date().toISOString();
     }
     
     setSchema(newSchema);
@@ -34,7 +34,7 @@ export function SchemaInjector({ schema: initialSchema }: { schema: any }) {
 
   return (
     <script
-      type=&quot;application/ld+json&quot;
+      type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />
   );

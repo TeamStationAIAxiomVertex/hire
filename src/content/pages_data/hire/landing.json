@@ -1,96 +1,96 @@
 
 {
-  &quot;meta&quot;: {
-    &quot;title&quot;: &quot;Hire Elite Engineers in LATAM | TeamStation AI&quot;,
-    &quot;description&quot;: &quot;Axiom Cortex™ identifies elite nearshore engineers through cognitive vetting, not coding trivia. Hire qualitative talent, not top 5% statistics.&quot;,
-    &quot;canonical&quot;: &quot;https://hire.teamstation.dev&quot;,
-    &quot;psp&quot;: true,
-    &quot;ncla_v7&quot;: true
+  "meta": {
+    "title": "Hire Elite Engineers in LATAM | TeamStation AI",
+    "description": "Axiom Cortex™ identifies elite nearshore engineers through cognitive vetting, not coding trivia. Hire qualitative talent, not top 5% statistics.",
+    "canonical": "https://hire.teamstation.dev",
+    "psp": true,
+    "ncla_v7": true
   },
-  &quot;hero&quot;: {
-    &quot;headline&quot;: &quot;Hire Elite Engineers in LATAM, Cognitively Vetted by Axiom Cortex™&quot;,
-    &quot;subline&quot;: &quot;We don’t chase the top 5%. We build with the elite-engineers vetted through cognitive depth, not coding trivia.&quot;,
-    &quot;primaryCta&quot;: { &quot;label&quot;: &quot;Book a Demo&quot;, &quot;href&quot;: &quot;/contact&quot; },
-    &quot;secondaryCta&quot;: { &quot;label&quot;: &quot;See How It Works&quot;, &quot;href&quot;: &quot;/about&quot; }
+  "hero": {
+    "headline": "Hire Elite Engineers in LATAM, Cognitively Vetted by Axiom Cortex™",
+    "subline": "We don't chase the top 5%. We build with the elite-engineers vetted through cognitive depth, not coding trivia.",
+    "primaryCta": { "label": "Book a Demo", "href": "/contact" },
+    "secondaryCta": { "label": "See How It Works", "href": "/about" }
   },
-  &quot;contrastSection&quot;: {
-    &quot;title&quot;: &quot;Elite, Not Top 5%&quot;,
-    &quot;body&quot;: [
+  "contrastSection": {
+    "title": "Elite, Not Top 5%",
+    "body": [
       {
-        &quot;icon&quot;: &quot;Target&quot;,
-        &quot;phrase&quot;: &quot;Most platforms chase numbers-algorithms that rank coders by test scores and call them 'apos;Top 5%.'apos; We built something different.&quot;
+        "icon": "Target",
+        "phrase": "Most platforms chase numbers-algorithms that rank coders by test scores and call them 'apos;Top 5%.'apos; We built something different."
       },
       {
-        &quot;icon&quot;: &quot;BrainCircuit&quot;,
-        &quot;phrase&quot;: &quot;TeamStation AI measures cognition, not clicks. Our Axiom Cortex™ maps how engineers think, solve, and collaborate under pressure.&quot;
+        "icon": "BrainCircuit",
+        "phrase": "TeamStation AI measures cognition, not clicks. Our Axiom Cortex™ maps how engineers think, solve, and collaborate under pressure."
       },
       {
-        &quot;icon&quot;: &quot;Users&quot;,
-        &quot;phrase&quot;: &quot;That’s what separates elite from merely efficient. Quantitative vetting finds who can code fast; qualitative calibration finds who can lead.&quot;
+        "icon": "Users",
+        "phrase": "That's what separates elite from merely efficient. Quantitative vetting finds who can code fast; qualitative calibration finds who can lead."
       },
       {
-        &quot;icon&quot;: &quot;Scaling&quot;,
-        &quot;phrase&quot;: &quot;We don’t source talent. We engineer alignment. We identify engineers who can multiply the intelligence and velocity of your entire team.&quot;
+        "icon": "Scaling",
+        "phrase": "We don't source talent. We engineer alignment. We identify engineers who can multiply the intelligence and velocity of your entire team."
       },
       {
-        &quot;icon&quot;: &quot;Globe&quot;,
-        &quot;phrase&quot;: &quot;Hire the elite minds of Latin America, vetted for cognitive depth-not just coding trivia. This is the future of nearshore talent.&quot;
+        "icon": "Globe",
+        "phrase": "Hire the elite minds of Latin America, vetted for cognitive depth-not just coding trivia. This is the future of nearshore talent."
       },
       {
-        &quot;icon&quot;: &quot;ShieldCheck&quot;,
-        &quot;phrase&quot;: &quot;Our process guarantees you are matched with engineers who not only have the right skills but also the right cognitive profile for your team.&quot;
+        "icon": "ShieldCheck",
+        "phrase": "Our process guarantees you are matched with engineers who not only have the right skills but also the right cognitive profile for your team."
       }
     ]
   },
-  &quot;psp&quot;: {
-    &quot;pain&quot;: &quot;U.S. CTOs waste time and budget with vendors who filter by code tests instead of team cognition.&quot;,
-    &quot;solution&quot;: &quot;Axiom Cortex™ evaluates cognitive fit-mapping adaptability, reasoning, and collaboration.&quot;,
-    &quot;proof&quot;: [
-      &quot;95% day-one tool readiness&quot;,
-      &quot;9-day time-to-offer&quot;,
-      &quot;2.6M LATAM profiles&quot;,
-      &quot;90% project retention at 6 months&quot;
+  "psp": {
+    "pain": "U.S. CTOs waste time and budget with vendors who filter by code tests instead of team cognition.",
+    "solution": "Axiom Cortex™ evaluates cognitive fit-mapping adaptability, reasoning, and collaboration.",
+    "proof": [
+      "95% day-one tool readiness",
+      "9-day time-to-offer",
+      "2.6M LATAM profiles",
+      "90% project retention at 6 months"
     ]
   },
-  &quot;testimonials&quot;: [
+  "testimonials": [
     {
-      &quot;quote&quot;: &quot;We didn’t just hire faster-we hired thinkers who lift the whole team.&quot;,
-      &quot;attribution&quot;: &quot;VP Engineering, U.S. HealthTech&quot;
+      "quote": "We didn't just hire faster-we hired thinkers who lift the whole team.",
+      "attribution": "VP Engineering, U.S. HealthTech"
     }
   ],
-  &quot;finalCta&quot;: {
-    &quot;headline&quot;: &quot;Ready to hire elite engineers who think like your best architects?&quot;,
-    &quot;subline&quot;: &quot;Book a demo with TeamStation AI.&quot;,
-    &quot;primaryCta&quot;: { &quot;label&quot;: &quot;Book a Demo&quot;, &quot;href&quot;: &quot;/contact&quot; }
+  "finalCta": {
+    "headline": "Ready to hire elite engineers who think like your best architects?",
+    "subline": "Book a demo with TeamStation AI.",
+    "primaryCta": { "label": "Book a Demo", "href": "/contact" }
   },
-  &quot;faq&quot;: [
+  "faq": [
     {
-      &quot;q&quot;: &quot;How is “Elite” different from “Top 5%”?&quot;,
-      &quot;a&quot;: &quot;Top 5% is a speed score. Elite is cognitive depth. Axiom Cortex™ assesses reasoning, adaptability, collaboration, and decision quality under pressure.&quot;
+      "q": "How is \"Elite\" different from \"Top 5%\"?",
+      "a": "Top 5% is a speed score. Elite is cognitive depth. Axiom Cortex™ assesses reasoning, adaptability, collaboration, and decision quality under pressure."
     },
     {
-      &quot;q&quot;: &quot;What is Axiom Cortex™?&quot;,
-      &quot;a&quot;: &quot;Our proprietary cognitive vetting engine that maps how candidates think-problem frames, tradeoffs, analogies, and team alignment.&quot;
+      "q": "What is Axiom Cortex™?",
+      "a": "Our proprietary cognitive vetting engine that maps how candidates think-problem frames, tradeoffs, analogies, and team alignment."
     },
     {
-      &quot;q&quot;: &quot;How quickly can we hire?&quot;,
-      &quot;a&quot;: &quot;Typical time-to-offer is 9 days with day-one tool readiness at 95%.&quot;
+      "q": "How quickly can we hire?",
+      "a": "Typical time-to-offer is 9 days with day-one tool readiness at 95%."
     },
     {
-      &quot;q&quot;: &quot;What time zones do you cover?&quot;,
-      &quot;a&quot;: &quot;Nearshore LATAM aligned to U.S. time zones for real-time collaboration.&quot;
+      "q": "What time zones do you cover?",
+      "a": "Nearshore LATAM aligned to U.S. time zones for real-time collaboration."
     },
     {
-      &quot;q&quot;: &quot;How do you ensure quality past the interview?&quot;,
-      &quot;a&quot;: &quot;Continuing calibration, sprint-based feedback loops, and retention analytics keep performance high and teams stable.&quot;
+      "q": "How do you ensure quality past the interview?",
+      "a": "Continuing calibration, sprint-based feedback loops, and retention analytics keep performance high and teams stable."
     }
   ],
-  &quot;internalLinks&quot;: [
-    { &quot;label&quot;: &quot;CTO Playbook: Nearshore vs Offshore&quot;, &quot;href&quot;: &quot;https://cto.teamstation.dev/playbook/nearshore-vs-offshore&quot; },
-    { &quot;label&quot;: &quot;Comparison: vs BairesDev&quot;, &quot;href&quot;: &quot;https://cto.teamstation.dev/comparisons/bairesdev&quot; },
-    { &quot;label&quot;: &quot;Comparison: vs Globant&quot;, &quot;href&quot;: &quot;https://cto.teamstation.dev/comparisons/globant&quot; },
-    { &quot;label&quot;: &quot;Our Science Paper&quot;, &quot;href&quot;: &quot;https://cto.teamstation.dev/research/hub&quot; },
-    { &quot;label&quot;: &quot;Client Case Studies&quot;, &quot;href&quot;: &quot;https://cto.teamstation.dev/case-studies&quot; },
-    { &quot;label&quot;: &quot;How TeamStation Works&quot;, &quot;href&quot;: &quot;https://cto.teamstation.dev/about&quot; }
+  "internalLinks": [
+    { "label": "CTO Playbook: Nearshore vs Offshore", "href": "https://cto.teamstation.dev/playbook/nearshore-vs-offshore" },
+    { "label": "Comparison: vs BairesDev", "href": "https://cto.teamstation.dev/comparisons/bairesdev" },
+    { "label": "Comparison: vs Globant", "href": "https://cto.teamstation.dev/comparisons/globant" },
+    { "label": "Our Science Paper", "href": "https://cto.teamstation.dev/research/hub" },
+    { "label": "Client Case Studies", "href": "https://cto.teamstation.dev/case-studies" },
+    { "label": "How TeamStation Works", "href": "https://cto.teamstation.dev/about" }
   ]
 }

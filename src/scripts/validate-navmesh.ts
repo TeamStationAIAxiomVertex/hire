@@ -8,11 +8,11 @@ Ensures every tech page is valid and accessible.
 ✅ Uses canonical /hire/{slug} paths only
 */
 
-import fs from &quot;fs&quot;;
-import path from &quot;path&quot;;
-import { getAllTech } from &quot;../lib/dataModel&quot;;
+import fs from "fs";
+import path from "path";
+import { getAllTech } from "../lib/dataModel";
 
-const LOG_FILE_PATH = &quot;/tmp/navmesh-report.log&quot;;
+const LOG_FILE_PATH = "/tmp/navmesh-report.log";
 
 export function validateNavMesh() {
   const techs = getAllTech();
@@ -37,14 +37,14 @@ export function validateNavMesh() {
     `=== NAVMESH VALIDATION REPORT ===`,
     `Total Technologies: ${techs.length}`,
     missingSlugs.length
-      ? `Missing Slugs:\n - ${missingSlugs.join(&quot;\n - &quot;)}`
+      ? `Missing Slugs:\n - ${missingSlugs.join("\n - ")}`
       : `✅ No missing slugs`,
     duplicateSlugs.length
-      ? `Duplicate Slugs:\n - ${duplicateSlugs.join(&quot;\n - &quot;)}`
+      ? `Duplicate Slugs:\n - ${duplicateSlugs.join("\n - ")}`
       : `✅ No duplicate slugs`,
-  ].join(&quot;\n\n&quot;);
+  ].join("\n\n");
 
-  fs.writeFileSync(LOG_FILE_PATH, report, &quot;utf8&quot;);
+  fs.writeFileSync(LOG_FILE_PATH, report, "utf8");
   console.log(`✅ Navmesh validation complete → ${LOG_FILE_PATH}`);
 }
 

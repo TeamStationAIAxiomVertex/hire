@@ -20,8 +20,8 @@ export function MicrosoftEcosystemSEOArticle() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "The CTO’s Playbook for Hiring Elite Microsoft Ecosystem Architects in LATAM",
-    "description": "A strategic guide for sourcing nearshore experts who can unify your Dynamics 365, Power Platform, and Azure services, vetted by TeamStation’s Axiom Cortex™.",
+    "headline": "The CTO's Playbook for Hiring Elite Microsoft Ecosystem Architects in LATAM",
+    "description": "A strategic guide for sourcing nearshore experts who can unify your Dynamics 365, Power Platform, and Azure services, vetted by TeamStation's Axiom Cortex™.",
     "author": { "@type": "Organization", "name": "TeamStation AI" },
     "publisher": { "@type": "Organization", "name": "TeamStation AI" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hire.teamstation.dev/roles/microsoft-ecosystem" }
@@ -36,7 +36,7 @@ export function MicrosoftEcosystemSEOArticle() {
       <div className="space-y-6">
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                As a CTO, you’ve invested heavily in the Microsoft stack for its promise of integration and enterprise-grade power. Yet, you’re likely facing a fragmented reality: your <strong>Dynamics 365</strong> instance doesn’t talk to your custom <strong>.NET applications on Azure</strong>, and your business users are building rogue apps because the <strong>Power Platform</strong> isn’t governed correctly. This isn’t an ecosystem; it’s a collection of expensive, disconnected data silos.
+                As a CTO, you've invested heavily in the Microsoft stack for its promise of integration and enterprise-grade power. Yet, you're likely facing a fragmented reality: your <strong>Dynamics 365</strong> instance doesn't talk to your custom <strong>.NET applications on Azure</strong>, and your business users are building rogue apps because the <strong>Power Platform</strong> isn't governed correctly. This isn't an ecosystem; it's a collection of expensive, disconnected data silos.
             </p>
         </div>
         <div className="bg-bg-elev border rounded-xl p-6">
@@ -56,18 +56,18 @@ export function MicrosoftEcosystemSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: Your ’low-code’ platform has created high-risk ’shadow IT’.</span>
+              <span>Pain: Your 'low-code' platform has created high-risk 'shadow IT'.</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="font-semibold text-text mb-2">The Business Impact:</p>
             <p>
-             Empowering business users with the Power Platform is a great idea, but without proper governance, it leads to a proliferation of insecure, unmanaged, and unsupported applications. These apps often handle sensitive data, lack proper error handling, and become critical to a business process without IT’s knowledge—a massive compliance and operational risk.
+             Empowering business users with the Power Platform is a great idea, but without proper governance, it leads to a proliferation of insecure, unmanaged, and unsupported applications. These apps often handle sensitive data, lack proper error handling, and become critical to a business process without IT's knowledge—a massive compliance and operational risk.
             </p>
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>
                 <p className="mt-2 text-sm">
-                 We provide experts in building a Center of Excellence (CoE) for the Power Platform. They are vetted on their ability to establish governance policies, create secure environments, and build a library of reusable components and connectors. This enables ’fusion development,’ where pro-developers build the core APIs and business users assemble the frontends safely and efficiently.
+                 We provide experts in building a Center of Excellence (CoE) for the Power Platform. They are vetted on their ability to establish governance policies, create secure environments, and build a library of reusable components and connectors. This enables 'fusion development,' where pro-developers build the core APIs and business users assemble the frontends safely and efficiently.
                 </p>
             </div>
           </CardContent>
@@ -77,18 +77,18 @@ export function MicrosoftEcosystemSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: Your custom .NET code is stuck in legacy frameworks and can’t leverage Azure.</span>
+              <span>Pain: Your custom .NET code is stuck in legacy frameworks and can't leverage Azure.</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="font-semibold text-text mb-2">The Business Impact:</p>
             <p>
-              Your critical business logic is trapped in an old, monolithic .NET Framework application. It’s expensive to host on-premises, difficult to scale, and cannot easily integrate with modern cloud services like Azure AI. You are paying a premium for legacy infrastructure and falling behind competitors who are cloud-native.
+              Your critical business logic is trapped in an old, monolithic .NET Framework application. It's expensive to host on-premises, difficult to scale, and cannot easily integrate with modern cloud services like Azure AI. You are paying a premium for legacy infrastructure and falling behind competitors who are cloud-native.
             </p>
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>
                 <p className="mt-2 text-sm">
-                 Our .NET architects are modernization specialists. We vet their ability to perform a phased, safe migration from legacy .NET to modern, cross-platform .NET on Azure. They are experts in containerizing applications with <strong>Docker</strong> and deploying them to scalable platforms like <strong>Azure Kubernetes Service (AKS)</strong> or <strong>Azure App Services</strong>, unlocking cloud benefits without a risky ’big bang’ rewrite.
+                 Our .NET architects are modernization specialists. We vet their ability to perform a phased, safe migration from legacy .NET to modern, cross-platform .NET on Azure. They are experts in containerizing applications with <strong>Docker</strong> and deploying them to scalable platforms like <strong>Azure Kubernetes Service (AKS)</strong> or <strong>Azure App Services</strong>, unlocking cloud benefits without a risky 'big bang' rewrite.
                 </p>
             </div>
           </CardContent>
@@ -129,7 +129,7 @@ export function MicrosoftEcosystemSEOArticle() {
                     <strong>US-Grade Contractual Safeguards:</strong> Every engineer operates under an agreement with robust IP assignment clauses. All custom code, Power Platform solutions, and configurations are your exclusive intellectual property, enforceable under both U.S. and local law.
                 </li>
                 <li className="bg-bg-elev border rounded-xl p-6">
-                    <strong>Expertise in Azure Governance:</strong> We hire engineers who are experts in Azure’s security and governance tools. They are vetted on their ability to implement Azure Policy, manage identities with Azure AD, and use Azure Key Vault for secure secret management, ensuring your cloud environment is compliant and secure by design.
+                    <strong>Expertise in Azure Governance:</strong> We hire engineers who are experts in Azure's security and governance tools. They are vetted on their ability to implement Azure Policy, manage identities with Azure AD, and use Azure Key Vault for secure secret management, ensuring your cloud environment is compliant and secure by design.
                 </li>
                 <li className="bg-bg-elev border rounded-xl p-6">
                     <strong>End-to-End Compliance:</strong> Our platform manages all local labor laws, tax compliance, and contractual obligations in Latin America. We provide a single, secure master services agreement (MSA) that simplifies your vendor management and ensures compliance across all jurisdictions, insulating you from operational and legal complexities.

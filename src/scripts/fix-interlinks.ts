@@ -17,10 +17,10 @@ Acceptance:
  * Route: /src/scripts/fix-interlinks.ts
  * Description: Automatically adds missing interlinks to known failing pages to ensure NavMesh compliance.
  */
-import fs from &quot;fs&quot;;
-import path from &quot;path&quot;;
+import fs from "fs";
+import path from "path";
 
-const DATA_DIR = path.join(process.cwd(), &quot;src/lib/data&quot;);
+const DATA_DIR = path.join(process.cwd(), "src/lib/data");
 
 // Function to read a file, apply a regex replacement, and write it back.
 function patchFile(
@@ -33,53 +33,53 @@ function patchFile(
   }
 
   console.log(`\n🔍 Patching ${path.basename(filePath)}...`);
-  let content = fs.readFileSync(filePath, &quot;utf8&quot;);
+  let content = fs.readFileSync(filePath, "utf8");
   let changed = false;
 
   for (const patch of patches) {
     const { techSlug, linksToAdd } = patch;
     // Regex to find the interlink_slugs array for a specific technology slug, allowing for multi-line arrays.
     const regex = new RegExp(
-      `(&quot;${techSlug}&quot;:\s*\{[\s\S]*?&quot;interlink_slugs&quot;:\s*\[)([\s\S]*?)(\])`,
+      `("${techSlug}":\s*\{[\s\S]*?"interlink_slugs":\s*\[)([\s\S]*?)(\])`,
     );
 
     const match = content.match(regex);
 
     if (match) {
-      const existingLinksRaw = match[2] || &quot;&quot;;
+      const existingLinksRaw = match[2] || "";
       const existingLinks = existingLinksRaw
-        .split(&quot;,&quot;)
-        .map((s) => s.trim().replace(/&quot;/g, &quot;&quot;))
+        .split(",")
+        .map((s) => s.trim().replace(/"/g, ""))
         .filter(Boolean);
       const linksSet = new Set([...existingLinks, ...linksToAdd]);
 
       if (linksSet.size > existingLinks.length) {
         const newLinksRaw =
-          &quot;\n          &quot; +
+          "\n          " +
           Array.from(linksSet)
-            .map((s) => `&quot;${s}&quot;`)
-            .join(&quot;,\n          &quot;) +
-          &quot;\n        &quot;;
+            .map((s) => `"${s}"`)
+            .join(",\n          ") +
+          "\n        ";
         content = content.replace(
           regex,
           `${match[1]}${newLinksRaw}${match[3]}`,
         );
         console.log(
-          `  ✅ Added ${linksSet.size - existingLinks.length} link(s) to 'apos;${techSlug}'apos;.`,
+          `  ✅ Added ${linksSet.size - existingLinks.length} link(s) to '${techSlug}'.`,
         );
         changed = true;
       } else {
-        console.log(`  - Links for 'apos;${techSlug}'apos; are already sufficient.`);
+        console.log(`  - Links for '${techSlug}' are already sufficient.`);
       }
     } else {
       console.warn(
-        `  ⚠️ Could not find interlink_slugs for 'apos;${techSlug}'apos; in this file.`,
+        `  ⚠️ Could not find interlink_slugs for '${techSlug}' in this file.`,
       );
     }
   }
 
   if (changed) {
-    fs.writeFileSync(filePath, content, &quot;utf8&quot;);
+    fs.writeFileSync(filePath, content, "utf8");
     console.log(`💾 Saved changes to ${path.basename(filePath)}.`);
   } else {
     console.log(`- No changes needed for ${path.basename(filePath)}.`);
@@ -87,21 +87,21 @@ function patchFile(
 }
 
 function main() {
-  console.log(&quot;🚀 Running automatic interlink repair script...&quot;);
+  console.log("🚀 Running automatic interlink repair script...");
 
   // As per the navmesh report, patch react-native and flutter in mobile.ts
-  patchFile(path.join(DATA_DIR, &quot;mobile.ts&quot;), [
+  patchFile(path.join(DATA_DIR, "mobile.ts"), [
     {
-      techSlug: &quot;react-native&quot;,
-      linksToAdd: [&quot;flutter&quot;, &quot;mobile&quot;, &quot;typescript&quot;, &quot;frontend-web&quot;],
+      techSlug: "react-native",
+      linksToAdd: ["flutter", "mobile", "typescript", "frontend-web"],
     },
     {
-      techSlug: &quot;flutter&quot;,
-      linksToAdd: [&quot;react-native&quot;, &quot;mobile&quot;, &quot;typescript&quot;, &quot;qa-automation&quot;],
+      techSlug: "flutter",
+      linksToAdd: ["react-native", "mobile", "typescript", "qa-automation"],
     },
   ]);
 
-  console.log(&quot;\n✅ Interlink repair script finished.&quot;);
+  console.log("\n✅ Interlink repair script finished.");
 }
 
 main();

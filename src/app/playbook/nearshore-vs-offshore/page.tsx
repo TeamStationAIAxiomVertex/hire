@@ -20,7 +20,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter }
 import { BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: "Nearshore vs. Offshore: A CTO’s Guide | TeamStation AI",
+    title: "Nearshore vs. Offshore: A CTO's Guide | TeamStation AI",
     description: "A data-driven playbook for CTOs comparing the total cost of ownership (TCO) and velocity implications of nearshore vs. offshore software development.",
     alternates: {
         canonical: "/playbook/nearshore-vs-offshore",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Nearshore vs. Offshore Software Development: The CTO’s Decision Framework",
+  "headline": "Nearshore vs. Offshore Software Development: The CTO's Decision Framework",
   "author": {
     "@type": "Organization",
     "name": "TeamStation AI"
@@ -69,7 +69,7 @@ const fivePaths = [
         pain: "Overnight PRs = one day lost per question.",
         implication: "The 'Human Latency Tax' destroys agile. Appears cheap on a rate card but is expensive in reality due to rework, coordination overhead, and stalled velocity. A poor choice for nearshore software development needs.",
         useWhen: "The backlog is simple, latency is tolerable, and the primary driver is the appearance of low hourly costs.",
-        quote: "How many quarters died waiting for “LGTM”?"
+        quote: "How many quarters died waiting for \"LGTM\"?"
     },
     {
         title: "4. Nearshore (Legacy)",
@@ -95,24 +95,24 @@ export default function NearshoreVsOffshorePage() {
       <div className="container mx-auto px-4 py-12 max-w-screen-xl">
         <article className="max-w-4xl mx-auto">
           <header className="mb-12 text-center">
-            <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-2">The CTO’s Playbook</p>
+            <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-2">The CTO's Playbook</p>
             <h1 className="font-semibold text-3xl md:text-4xl tracking-tighter mb-4">
-              Nearshore vs. Offshore: The CTO’s Guide to Shipping Faster
+              Nearshore vs. Offshore: The CTO's Guide to Shipping Faster
             </h1>
           </header>
 
           <section className="prose prose-lg dark:prose-invert max-w-none text-muted leading-7 my-16">
             <h2 className="font-semibold text-2xl tracking-tighter text-text mb-6">The Pain: The Human Latency Tax</h2>
             <p className='mb-6'>
-              You’re here because the <strong>12-hour time lag</strong> with your offshore team is silently killing your roadmap. A simple question on a pull request turns into a 24-hour game of telephone. Your senior engineers are forced into late-night calls, burning them out and wasting their high-value time on coordination, not creation. This "human latency tax" is the single biggest hidden cost in <strong>nearshore software development</strong>, and it’s a direct result of prioritizing a low hourly rate over a functional workflow.
+              You're here because the <strong>12-hour time lag</strong> with your offshore team is silently killing your roadmap. A simple question on a pull request turns into a 24-hour game of telephone. Your senior engineers are forced into late-night calls, burning them out and wasting their high-value time on coordination, not creation. This "human latency tax" is the single biggest hidden cost in <strong>nearshore software development</strong>, and it's a direct result of prioritizing a low hourly rate over a functional workflow.
             </p>
             <p>
-              This playbook provides a data-driven framework to quantify that tax. It’s the business case for why daylight-native <strong>nearshore software development</strong> isn’t just "better"—it’s fundamentally more capital-efficient. We’ll give you the models to prove that a slightly higher hourly rate that eliminates latency delivers a dramatically lower Total Cost of Ownership (TCO) and faster time-to-market.
+              This playbook provides a data-driven framework to quantify that tax. It's the business case for why daylight-native <strong>nearshore software development</strong> isn't just "better"—it's fundamentally more capital-efficient. We'll give you the models to prove that a slightly higher hourly rate that eliminates latency delivers a dramatically lower Total Cost of Ownership (TCO) and faster time-to-market.
             </p>
           </section>
 
           <section className="my-24">
-            <h2 className="font-semibold text-3xl tracking-tighter text-center mb-8">The Five Paths to Scaling Your Team: A CTO’s Decision Matrix</h2>
+            <h2 className="font-semibold text-3xl tracking-tighter text-center mb-8">The Five Paths to Scaling Your Team: A CTO's Decision Matrix</h2>
              <p className="text-center text-muted mb-12 max-w-2xl mx-auto">Each model represents a distinct trade-off between cost, control, speed, and risk. The wrong choice here is the most expensive decision a CTO can make.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {fivePaths.map((path) => (
