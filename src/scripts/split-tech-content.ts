@@ -18,11 +18,11 @@ Acceptance:
  * Description: Splits technologyskillscontent.ts into category modules and builds a lazy loader.
  */
 
-import fs from &quot;fs&quot;;
-import path from &quot;path&quot;;
+import fs from "fs";
+import path from "path";
 
-const SRC = path.join(process.cwd(), &quot;src/lib/technologyskillscontent.ts&quot;);
-const OUT_DIR = path.join(process.cwd(), &quot;src/lib/data&quot;);
+const SRC = path.join(process.cwd(), "src/lib/technologyskillscontent.ts");
+const OUT_DIR = path.join(process.cwd(), "src/lib/data");
 
 /**
  * Ensures the output directory exists.
@@ -37,18 +37,18 @@ function ensureDir() {
  * Parse technologyskillscontent.ts and split it into per-category modules.
  */
 function parseAndSplit() {
-  console.log(&quot;🔍 Reading technologyskillscontent.ts...&quot;);
-  const content = fs.readFileSync(SRC, &quot;utf8&quot;);
+  console.log("🔍 Reading technologyskillscontent.ts...");
+  const content = fs.readFileSync(SRC, "utf8");
 
   // Match individual tech objects inside allTech or export const allTech.
   // Uses a non-greedy match to avoid runaway regex expansion.
-  const entries = content.split(/(?=(?:\s*[&quot;'apos;][[\w\-\/]+[&quot;'apos;]:\s*{))/g);
+  const entries = content.split(/(?=(?:\s*["'][[\w\-\/]+["']:\s*{))/g);
 
   const buckets: Record<string, string[]> = {};
 
   for (const entry of entries) {
-    const match = entry.match(/categorySlug[&quot;\'apos;]?\s*:\s*[&quot;\'apos;]([^&quot;\'apos;]+)[&quot;\'apos;]/);
-    const slug = match ? match[1] : &quot;misc&quot;;
+    const match = entry.match(/categorySlug["\']?\s*:\s*["\']([^"\']+)["\']/);
+    const slug = match ? match[1] : "misc";
     if (!buckets[slug]) buckets[slug] = [];
     buckets[slug].push(entry.trim());
   }
@@ -59,9 +59,9 @@ function parseAndSplit() {
 
   for (const [slug, parts] of Object.entries(buckets)) {
     const filePath = path.join(OUT_DIR, `${slug}.ts`);
-    const exportObj = parts.join(&quot;,\\n&quot;);
+    const exportObj = parts.join(",\\n");
     const fileContent = `export default {\\n${exportObj}\\n};\\n`;
-    fs.writeFileSync(filePath, fileContent, &quot;utf8&quot;);
+    fs.writeFileSync(filePath, fileContent, "utf8");
     console.log(`✅ Created module: ${slug}.ts (${parts.length} entries)`);
   }
 
@@ -78,17 +78,17 @@ export const loadCategory = async (category: string) => {
   switch (category) {
 ${Object.keys(buckets)
   .map(
-    (c) => `    case &quot;${c}&quot;:
-      return import(&quot;./${c}.ts&quot;).then(m => m.default);`,
+    (c) => `    case "${c}":
+      return import("./${c}.ts").then(m => m.default);`,
   )
-  .join(&quot;\\n&quot;)}
+  .join("\\n")}
     default:
       throw new Error(\`Unknown category: \${category}\`);
   }
 };
 `;
-  fs.writeFileSync(path.join(OUT_DIR, &quot;index.ts&quot;), indexContent, &quot;utf8&quot;);
-  console.log(&quot;⚙️  Lazy loader index.ts generated successfully.&quot;);
+  fs.writeFileSync(path.join(OUT_DIR, "index.ts"), indexContent, "utf8");
+  console.log("⚙️  Lazy loader index.ts generated successfully.");
 }
 
 parseAndSplit();

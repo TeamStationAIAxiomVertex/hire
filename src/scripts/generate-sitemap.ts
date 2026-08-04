@@ -8,20 +8,20 @@ Programmatically builds a sitemap index to connect hire.teamstation.dev with cto
 ✅ Google SEO compliant.
 */
 
-import { getAllTech } from &quot;../lib/dataModel&quot;;
-import fs from &quot;fs&quot;;
-import path from &quot;path&quot;;
-import { categories } from &quot;../lib/categories&quot;;
-import { productCategory } from &quot;@/lib/data/product&quot;;
+import { getAllTech } from "../lib/dataModel";
+import fs from "fs";
+import path from "path";
+import { categories } from "../lib/categories";
+import { productCategory } from "@/lib/data/product";
 
-const BASE_URL = &quot;https://hire.teamstation.dev&quot;;
+const BASE_URL = "https://hire.teamstation.dev";
 const CTO_SITEMAPS = [
-  &quot;https://cto.teamstation.dev/sitemaps/static.xml&quot;,
-  &quot;https://cto.teamstation.dev/sitemaps/playbook.xml&quot;,
-  &quot;https://cto.teamstation.dev/sitemaps/case-studies.xml&quot;,
-  &quot;https://cto.teamstation.dev/sitemaps/comparisons.xml&quot;,
-  &quot;https://cto.teamstation.dev/sitemaps/research.xml&quot;,
-  &quot;https://cto.teamstation.dev/sitemaps/hire-pages.xml&quot;
+  "https://cto.teamstation.dev/sitemaps/static.xml",
+  "https://cto.teamstation.dev/sitemaps/playbook.xml",
+  "https://cto.teamstation.dev/sitemaps/case-studies.xml",
+  "https://cto.teamstation.dev/sitemaps/comparisons.xml",
+  "https://cto.teamstation.dev/sitemaps/research.xml",
+  "https://cto.teamstation.dev/sitemaps/hire-pages.xml"
 ];
 
 function generateLocalSitemap() {
@@ -29,16 +29,16 @@ function generateLocalSitemap() {
   const allCategories = [...categories, productCategory];
 
   const staticPages = [
-    &quot;&quot;, // home
-    &quot;/about&quot;,
-    &quot;/contact&quot;,
-    &quot;/roles&quot;,
-    &quot;/sitemap&quot;,
-    &quot;/legal/privacy&quot;,
-    &quot;/legal/terms&quot;,
-    &quot;/nearshore-software-development&quot;,
-    &quot;/compare/bairesdev&quot;,
-    &quot;/cto/nearshore-team-topology&quot;
+    "", // home
+    "/about",
+    "/contact",
+    "/roles",
+    "/sitemap",
+    "/legal/privacy",
+    "/legal/terms",
+    "/nearshore-software-development",
+    "/compare/bairesdev",
+    "/cto/nearshore-team-topology"
   ];
   
   const techUrls = techs.map((tech) => `${BASE_URL}/hire/${tech.slug}`);
@@ -52,25 +52,25 @@ function generateLocalSitemap() {
   const today = new Date().toISOString();
 
   const urlsetXML = `
-<urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${allUrls
     .map(
       (url) => {
-        let priority = &quot;0.8&quot;; // Default priority
+        let priority = "0.8"; // Default priority
         if (url === BASE_URL || url === `${BASE_URL}/`) {
-            priority = &quot;1.0&quot;;
-        } else if (url.endsWith('apos;/nearshore-software-development'apos;)) {
-            priority = &quot;0.9&quot;;
-        } else if (url.includes('apos;/compare/'apos;) || url.includes('apos;/playbook/'apos;)) {
-            priority = &quot;0.8&quot;;
-        } else if (url.includes('apos;/roles'apos;) || url.includes('apos;/hire/'apos;)) {
-            priority = &quot;0.7&quot;;
-        } else if (url.includes('apos;/about'apos;) || url.includes('apos;/contact'apos;)) {
-            priority = &quot;0.6&quot;;
-        } else if (url.includes('apos;/sitemap'apos;)) {
-            priority = &quot;0.5&quot;;
-        } else if (url.includes('apos;/legal/'apos;)) {
-            priority = &quot;0.3&quot;;
+            priority = "1.0";
+        } else if (url.endsWith('/nearshore-software-development')) {
+            priority = "0.9";
+        } else if (url.includes('/compare/') || url.includes('/playbook/')) {
+            priority = "0.8";
+        } else if (url.includes('/roles') || url.includes('/hire/')) {
+            priority = "0.7";
+        } else if (url.includes('/about') || url.includes('/contact')) {
+            priority = "0.6";
+        } else if (url.includes('/sitemap')) {
+            priority = "0.5";
+        } else if (url.includes('/legal/')) {
+            priority = "0.3";
         }
 
         return `
@@ -82,16 +82,16 @@ function generateLocalSitemap() {
     </url>`;
       }
     )
-    .join(&quot;&quot;)}
+    .join("")}
 </urlset>`.trim();
 
-  const publicDir = path.join(process.cwd(), &quot;public&quot;);
+  const publicDir = path.join(process.cwd(), "public");
   if (!fs.existsSync(publicDir)) {
     fs.mkdirSync(publicDir, { recursive: true });
   }
   
-  const outPath = path.join(publicDir, &quot;sitemap-local.xml&quot;);
-  fs.writeFileSync(outPath, urlsetXML, &quot;utf8&quot;);
+  const outPath = path.join(publicDir, "sitemap-local.xml");
+  fs.writeFileSync(outPath, urlsetXML, "utf8");
   console.log(`✅ Local sitemap written to: ${outPath}`);
 }
 
@@ -104,7 +104,7 @@ export function generateSitemapIndex() {
   ];
 
   const sitemapIndexXML = `
-<sitemapindex xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${allSitemaps
     .map(
       (url) => `
@@ -113,11 +113,11 @@ export function generateSitemapIndex() {
     <lastmod>${today}</lastmod>
   </sitemap>`,
     )
-    .join(&quot;&quot;)}
+    .join("")}
 </sitemapindex>`.trim();
 
-  const outPath = path.join(process.cwd(), &quot;public&quot;, &quot;sitemap.xml&quot;);
-  fs.writeFileSync(outPath, sitemapIndexXML, &quot;utf8&quot;);
+  const outPath = path.join(process.cwd(), "public", "sitemap.xml");
+  fs.writeFileSync(outPath, sitemapIndexXML, "utf8");
   console.log(`✅ Sitemap Index written to: ${outPath}`);
   console.log(`ℹ️  Remember to submit ${BASE_URL}/sitemap.xml to Google Search Console.`);
 }

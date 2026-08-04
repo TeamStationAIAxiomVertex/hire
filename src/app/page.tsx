@@ -77,7 +77,7 @@ const securityGuarantees = [
     { title: "EOR & Country Compliance", concern: "Worried about navigating complex local labor laws?", solution: "Contracts, payroll, statutory benefits, PTO, taxes—fully compliant per country and contractually guaranteed in the SOW.", proof: "Zero compliance overhead" },
     { title: "Device Security & MDM", concern: "Exposed by insecure remote laptops?", solution: "Encrypted endpoints, provisioning, auto-patching, 24/7 monitoring, and remote lock/wipe, all governed by the MSA.", proof: "MDM enrollment ≥99% (24h)" },
     { title: "Insurance & IP Protection", concern: "Carrying all the liability for vendor mistakes?", solution: "Cyber/E&O coverage, NDAs & DPAs, and work-for-hire IP assignment, all defined in the Master Services Agreement.", proof: "Liability shield included" },
-    { title: "Background & Identity Checks", concern: "Unsure who you’re really hiring?", solution: "KYC, criminal record, employment & education verification, with results stored in an auditable evidence locker.", proof: "100% auditable record" }
+    { title: "Background & Identity Checks", concern: "Unsure who you're really hiring?", solution: "KYC, criminal record, employment & education verification, with results stored in an auditable evidence locker.", proof: "100% auditable record" }
 ];
 
 const recognitions = [
@@ -176,7 +176,7 @@ export default async function LandingPage() {
         <section className="max-w-5xl mx-auto">
           <div className="text-center">
              <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-text">Nearshore IT Co-Pilot Platform</h2>
-            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted">This isn’t a checklist; it’s an engineered system. Our Nearshore IT Co-Pilot™ provides one accountable workflow for hiring, compliance, and secure devices, governed by a single MSA/SOW.</p>
+            <p className="mt-4 max-w-3xl mx-auto text-lg text-muted">This isn't a checklist; it's an engineered system. Our Nearshore IT Co-Pilot™ provides one accountable workflow for hiring, compliance, and secure devices, governed by a single MSA/SOW.</p>
             <div className="mt-4 text-sm font-semibold text-primary">Time-to-Offer ≈ 9 days • Day-1 Tool Readiness ≥ 95% • First PR in 7–14 days</div>
           </div>
 

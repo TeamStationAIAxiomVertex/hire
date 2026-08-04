@@ -20,8 +20,8 @@ export function MobileSEOArticle() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "The CTO’s Guide to Hiring Elite Mobile Engineers in LATAM",
-    "description": "A strategic guide to sourcing nearshore mobile developers who can build high-performance native (Swift, Kotlin) and cross-platform (React Native, Flutter) applications, vetted by TeamStation’s Axiom Cortex™.",
+    "headline": "The CTO's Guide to Hiring Elite Mobile Engineers in LATAM",
+    "description": "A strategic guide to sourcing nearshore mobile developers who can build high-performance native (Swift, Kotlin) and cross-platform (React Native, Flutter) applications, vetted by TeamStation's Axiom Cortex™.",
     "author": { "@type": "Organization", "name": "TeamStation AI" },
     "publisher": { "@type": "Organization", "name": "TeamStation AI" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hire.teamstation.dev/roles/mobile" }
@@ -36,7 +36,7 @@ export function MobileSEOArticle() {
       <div className="space-y-6">
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                As a technical leader, you know your mobile application isn’t just another channel; for many of your users, it is the <strong>primary interface to your business</strong>. Yet, it’s often treated as an afterthought. You’re struggling with a cross-platform app that feels slow and ’janky,’ or a native app that is difficult to maintain and out of sync with your web platform. This isn’t just a technical problem; it’s a direct threat to your user engagement, retention, and brand perception.
+                As a technical leader, you know your mobile application isn't just another channel; for many of your users, it is the <strong>primary interface to your business</strong>. Yet, it's often treated as an afterthought. You're struggling with a cross-platform app that feels slow and 'janky,' or a native app that is difficult to maintain and out of sync with your web platform. This isn't just a technical problem; it's a direct threat to your user engagement, retention, and brand perception.
             </p>
         </div>
         <div className="bg-bg-elev border rounded-xl p-6">
@@ -46,7 +46,7 @@ export function MobileSEOArticle() {
         </div>
          <div className="bg-bg-elev border rounded-xl p-6">
              <p>
-                TeamStation AI was engineered to find true mobile experts. Our <a href="https://cto.teamstation.dev/research/axiom-cortex-scientific-report" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Axiom Cortex™ vetting engine</strong></a> identifies engineers who are masters of the mobile ecosystem, whether it’s native development with <strong>Swift</strong> and <strong>Kotlin</strong> or high-performance cross-platform development with <strong>React Native</strong>. We find developers who understand the unique constraints and opportunities of mobile and can build an experience that delights your users.
+                TeamStation AI was engineered to find true mobile experts. Our <a href="https://cto.teamstation.dev/research/axiom-cortex-scientific-report" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Axiom Cortex™ vetting engine</strong></a> identifies engineers who are masters of the mobile ecosystem, whether it's native development with <strong>Swift</strong> and <strong>Kotlin</strong> or high-performance cross-platform development with <strong>React Native</strong>. We find developers who understand the unique constraints and opportunities of mobile and can build an experience that delights your users.
             </p>
         </div>
       </div>
@@ -56,7 +56,7 @@ export function MobileSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: Your cross-platform app feels slow and doesn’t respect platform conventions.</span>
+              <span>Pain: Your cross-platform app feels slow and doesn't respect platform conventions.</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -67,7 +67,7 @@ export function MobileSEOArticle() {
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>
                 <p className="mt-2 text-sm">
-                 We vet for engineers who are experts in cross-platform performance. They must demonstrate the ability to debug the React Native bridge or Flutter’s rendering engine to create smooth, 60fps animations. They are also masters of creating platform-idiomatic UIs that respect the design guidelines of both iOS and Android.
+                 We vet for engineers who are experts in cross-platform performance. They must demonstrate the ability to debug the React Native bridge or Flutter's rendering engine to create smooth, 60fps animations. They are also masters of creating platform-idiomatic UIs that respect the design guidelines of both iOS and Android.
                 </p>
             </div>
           </CardContent>
@@ -77,7 +77,7 @@ export function MobileSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: Your native app development is slow and you’re building everything twice.</span>
+              <span>Pain: Your native app development is slow and you're building everything twice.</span>
             </CardTitle>
           </CardHeader>
           <CardContent>

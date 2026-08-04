@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const aboutSchema = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "headline": "About TeamStation AI’s Intelligent Nearshore Platform",
+    "headline": "About TeamStation AI's Intelligent Nearshore Platform",
     "description": "Our mission, our process, and our commitment to building high-performance nearshore engineering teams through cognitive AI vetting.",
     "publisher": {
         "@type": "Organization",
@@ -41,7 +41,7 @@ const aboutSchema = {
 const painPoints = [
     {
         pain: "The Hidden Costs of a Bad Hire",
-        problem: "Traditional IT staff augmentation is a numbers game that you are destined to lose. Vendors flood you with keyword-matched resumes, forcing your senior engineers to waste countless hours interviewing unqualified candidates. A bad hire isn’t just a salary loss; it’s a drag on your team’s velocity, a hit to morale, and a source of production-level risk.",
+        problem: "Traditional IT staff augmentation is a numbers game that you are destined to lose. Vendors flood you with keyword-matched resumes, forcing your senior engineers to waste countless hours interviewing unqualified candidates. A bad hire isn't just a salary loss; it's a drag on your team's velocity, a hit to morale, and a source of production-level risk.",
         solution: "Our platform provides a pre-vetted, on-demand talent pool. Because our cognitive AI has already validated the technical and problem-solving abilities of our engineers, we can move from initial contact to a productive team member in as little as two weeks.",
         kpi: "Reduce interview time by 80% and increase 90-day success rate."
     },
@@ -127,7 +127,7 @@ export default function AboutPage() {
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li><strong>Black Box Vetting:</strong> Relies on unverified resumes and simple coding tests.</li>
                                         <li><strong>High Interview Overhead:</strong> Your senior engineers waste cycles on unqualified candidates.</li>
-                                        <li><strong>Reactive & Transactional:</strong> Fills seats, but doesn’t build strategic team capability.</li>
+                                        <li><strong>Reactive & Transactional:</strong> Fills seats, but doesn't build strategic team capability.</li>
                                         <li><strong>Opaque Pricing:</strong> You pay a high margin for a low-value service.</li>
                                     </ul>
                                 </CardContent>
@@ -141,10 +141,10 @@ export default function AboutPage() {
                                     <CardDescription>An intelligent, automated infrastructure.</CardDescription>
                                 </CardHeader>
                                 <CardContent className="space-y-4 text-sm">
-                                    <p>TeamStation AI is not a staffing agency; it’s an intelligent platform. Our Axiom Cortex™ engine productizes the vetting process, delivering a predictable supply of elite, cognitively-aligned talent.</p>
+                                    <p>TeamStation AI is not a staffing agency; it's an intelligent platform. Our Axiom Cortex™ engine productizes the vetting process, delivering a predictable supply of elite, cognitively-aligned talent.</p>
                                     <ul className="list-disc pl-5 space-y-2">
                                         <li><strong>Cognitive Vetting:</strong> We measure reasoning, problem-solving, and architectural instinct.</li>
-                                        <li><strong>Zero Interview Overhead:</strong> We deliver pre-vetted candidates, saving your team’s time.</li>
+                                        <li><strong>Zero Interview Overhead:</strong> We deliver pre-vetted candidates, saving your team's time.</li>
                                         <li><strong>Predictive & Strategic:</strong> We build team topologies based on cognitive fit and project needs.</li>
                                         <li><strong>Transparent Pricing:</strong> A clear, all-inclusive rate for an end-to-end service.</li>
                                     </ul>
@@ -157,10 +157,10 @@ export default function AboutPage() {
                     <section className="prose prose-lg dark:prose-invert max-w-none mb-12 text-muted leading-7">
                         <h2 className='font-semibold text-3xl tracking-tighter mb-4 text-text'>Our Mission: To Platform Nearshore Talent</h2>
                         <p className="mb-6">
-                            Traditional IT staff augmentation is broken. It’s a transactional, low-trust model built on opaque vendor margins and superficial keyword matching. This system is slow, expensive, and often results in misaligned hires that cost you time, money, and team morale.
+                            Traditional IT staff augmentation is broken. It's a transactional, low-trust model built on opaque vendor margins and superficial keyword matching. This system is slow, expensive, and often results in misaligned hires that cost you time, money, and team morale.
                         </p>
                         <p className="mb-8">
-                            We’re here to fix that. Our mission is to provide a seamless, AI-powered platform for building elite nearshore engineering teams. TeamStation AI is not a staffing agency; it is an intelligent infrastructure layer that handles the vetting, compliance, and logistics, so you can focus on what you do best: building great products. We offer a transparent, high-trust partnership designed for the unique needs of U.S. CTOs and engineering leaders.
+                            We're here to fix that. Our mission is to provide a seamless, AI-powered platform for building elite nearshore engineering teams. TeamStation AI is not a staffing agency; it is an intelligent infrastructure layer that handles the vetting, compliance, and logistics, so you can focus on what you do best: building great products. We offer a transparent, high-trust partnership designed for the unique needs of U.S. CTOs and engineering leaders.
                         </p>
                     </section>
 
@@ -201,7 +201,7 @@ export default function AboutPage() {
                     <section className="text-center py-12 border-t">
                         <h2 className="font-semibold text-3xl tracking-tighter mb-4">Ready to Hire Your Next Engineer?</h2>
                         <p className="text-lg text-muted max-w-2xl mx-auto mb-8">
-                            Browse our vetted specializations and discover how TeamStation AI’s intelligent platform can accelerate your roadmap and de-risk your hiring process.
+                            Browse our vetted specializations and discover how TeamStation AI's intelligent platform can accelerate your roadmap and de-risk your hiring process.
                         </p>
                         <div className="flex justify-center gap-4">
                             <Button asChild size="lg">

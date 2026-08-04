@@ -10,8 +10,8 @@ Acceptance:
 ✅ ≥6 verified internal links
 ✅ Valid canonical + JSON-LD schema
 ✅ Included in sitemap.xml */
-import { clsx, type ClassValue } from &quot;clsx&quot;;
-import { twMerge } from &quot;tailwind-merge&quot;;
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -22,8 +22,8 @@ export function slugify(text: string): string {
     .toString()
     .toLowerCase()
     .trim()
-    .replace(/\s+/g, &quot;-&quot;) // Replace spaces with -
-    .replace(/&/g, &quot;-and-&quot;) // Replace & with 'apos;and'apos;
-    .replace(/[^À-ſa-z0-9-]+/g, &quot;&quot;) // Remove all non-word chars
-    .replace(/--+/g, &quot;-&quot;); // Replace multiple - with single -
+    .replace(/\s+/g, "-") // Replace spaces with -
+    .replace(/&/g, "-and-") // Replace & with 'and'
+    .replace(/[^À-ſa-z0-9-]+/g, "") // Remove all non-word chars
+    .replace(/--+/g, "-"); // Replace multiple - with single -
 }

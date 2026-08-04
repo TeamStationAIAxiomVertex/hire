@@ -20,8 +20,8 @@ export function ArchitectsIntegrationsSEOArticle() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "The CTO’s Guide to Hiring Elite Software Architects in LATAM",
-    "description": "A strategic guide to sourcing nearshore architects who design resilient, scalable, and evolvable distributed systems using microservices and event-driven patterns, vetted by TeamStation’s Axiom Cortex™.",
+    "headline": "The CTO's Guide to Hiring Elite Software Architects in LATAM",
+    "description": "A strategic guide to sourcing nearshore architects who design resilient, scalable, and evolvable distributed systems using microservices and event-driven patterns, vetted by TeamStation's Axiom Cortex™.",
     "author": { "@type": "Organization", "name": "TeamStation AI" },
     "publisher": { "@type": "Organization", "name": "TeamStation AI" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hire.teamstation.dev/roles/architecture-integrations" }
@@ -31,17 +31,17 @@ export function ArchitectsIntegrationsSEOArticle() {
     <article className="mt-16 prose dark:prose-invert max-w-none text-muted leading-7">
       <SchemaInjector schema={jsonLd} />
 
-      <h2 className="text-3xl font-semibold mb-6 text-text">The Pain: Your ’Architecture’ Is Just a Collection of Services That Don’t Talk</h2>
+      <h2 className="text-3xl font-semibold mb-6 text-text">The Pain: Your 'Architecture' Is Just a Collection of Services That Don't Talk</h2>
       
       <div className="space-y-6">
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                As a CTO, you know that the most expensive mistake is not a bug; it’s an architectural one. You’ve embraced microservices, but instead of agility, you have a <strong>’distributed monolith’</strong>—a tangled web of tightly coupled services where a single failure cascades into a system-wide outage. Your team is spending more time on integration plumbing and debugging distributed failures than on shipping features.
+                As a CTO, you know that the most expensive mistake is not a bug; it's an architectural one. You've embraced microservices, but instead of agility, you have a <strong>'distributed monolith'</strong>—a tangled web of tightly coupled services where a single failure cascades into a system-wide outage. Your team is spending more time on integration plumbing and debugging distributed failures than on shipping features.
             </p>
         </div>
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                Traditional nearshore vendors exacerbate this by providing ’architects’ who can draw diagrams but have never operated a complex distributed system in production. They lack the deep, nuanced understanding of <strong>event-driven patterns, domain-driven design, and eventual consistency</strong> required to build systems that are truly resilient and scalable. This leaves you with an architecture that is brittle by design.
+                Traditional nearshore vendors exacerbate this by providing 'architects' who can draw diagrams but have never operated a complex distributed system in production. They lack the deep, nuanced understanding of <strong>event-driven patterns, domain-driven design, and eventual consistency</strong> required to build systems that are truly resilient and scalable. This leaves you with an architecture that is brittle by design.
             </p>
         </div>
          <div className="bg-bg-elev border rounded-xl p-6">
@@ -62,7 +62,7 @@ export function ArchitectsIntegrationsSEOArticle() {
           <CardContent>
             <p className="font-semibold text-text mb-2">The Business Impact:</p>
             <p>
-             Your ’microservices’ are just small monoliths that communicate via synchronous, blocking REST calls. When one service is slow or down, it creates a chain reaction that brings down the entire user experience. You’ve taken on all the complexity of a distributed system with none of the benefits of resilience or independent deployability.
+             Your 'microservices' are just small monoliths that communicate via synchronous, blocking REST calls. When one service is slow or down, it creates a chain reaction that brings down the entire user experience. You've taken on all the complexity of a distributed system with none of the benefits of resilience or independent deployability.
             </p>
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>
@@ -77,18 +77,18 @@ export function ArchitectsIntegrationsSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: Your service boundaries are arbitrary and create ’chatty’ communication.</span>
+              <span>Pain: Your service boundaries are arbitrary and create 'chatty' communication.</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="font-semibold text-text mb-2">The Business Impact:</p>
             <p>
-              If your microservice boundaries don’t align with your business domain, you end up with services that are constantly making calls to each other to complete a single business transaction. This ’chatty’ communication adds latency, increases complexity, and makes the system difficult to reason about and maintain.
+              If your microservice boundaries don't align with your business domain, you end up with services that are constantly making calls to each other to complete a single business transaction. This 'chatty' communication adds latency, increases complexity, and makes the system difficult to reason about and maintain.
             </p>
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>
                 <p className="mt-2 text-sm">
-                 Our architects are masters of <strong>Domain-Driven Design (DDD)</strong>. They are vetted on their ability to work with business stakeholders to identify the core domains and subdomains of your business, and to use these ’bounded contexts’ to define service boundaries that are stable, loosely coupled, and aligned with your business.
+                 Our architects are masters of <strong>Domain-Driven Design (DDD)</strong>. They are vetted on their ability to work with business stakeholders to identify the core domains and subdomains of your business, and to use these 'bounded contexts' to define service boundaries that are stable, loosely coupled, and aligned with your business.
                 </p>
             </div>
           </CardContent>
@@ -119,10 +119,10 @@ export function ArchitectsIntegrationsSEOArticle() {
       </section>
 
       <section className="mt-16 pt-12 border-t border-border">
-          <h2 className="text-3xl font-semibold text-text mb-4 flex items-center gap-3"><DynamicIcon name="ShieldCheck" className="w-8 h-8 text-primary"/> Intellectual Property &amp; Legal Compliance in System Architecture</h2>
+          <h2 className="text-3xl font-semibold text-text mb-4 flex items-center gap-3"><DynamicIcon name="ShieldCheck" className="w-8 h-8 text-primary"/> Intellectual Property & Legal Compliance in System Architecture</h2>
           <div className="space-y-6">
               <div className="bg-bg-elev border rounded-xl p-6">
-                  <p>Your system architecture is your most valuable intellectual property. It is the blueprint for your entire business. Protecting this IP is not an option; it’s a requirement. TeamStation AI’s operational and legal framework is designed to provide this protection from day one.</p>
+                  <p>Your system architecture is your most valuable intellectual property. It is the blueprint for your entire business. Protecting this IP is not an option; it's a requirement. TeamStation AI's operational and legal framework is designed to provide this protection from day one.</p>
               </div>
               <ul className="list-none space-y-6">
                 <li className="bg-bg-elev border rounded-xl p-6">

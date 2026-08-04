@@ -237,7 +237,7 @@ export default function TechnologyPage({ params }: PageProps) {
                     <BrainCircuit className="w-8 h-8 text-primary" />
                     How We Measure Seniority: From L1 to L4 Certified Expert
                 </h2>
-                <p className="text-muted mt-4">We don’t just match keywords; we measure cognitive ability. Our Axiom Cortex™ engine evaluates every candidate against a 44-point psychometric and technical framework to precisely map their seniority and predict their success on your team. This data-driven approach allows for transparent, value-based pricing.</p>
+                <p className="text-muted mt-4">We don't just match keywords; we measure cognitive ability. Our Axiom Cortex™ engine evaluates every candidate against a 44-point psychometric and technical framework to precisely map their seniority and predict their success on your team. This data-driven approach allows for transparent, value-based pricing.</p>
             </header>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {seniorityLevels.map(level => {
@@ -346,7 +346,7 @@ export default function TechnologyPage({ params }: PageProps) {
                         <CardTitle className="font-semibold text-lg">Nearshore vs. Offshore</CardTitle>
                     </CardHeader>
                     <CardContent>
-                        <p className="text-sm text-muted mb-4">Read our CTO’s guide to making the right global talent decision.</p>
+                        <p className="text-sm text-muted mb-4">Read our CTO's guide to making the right global talent decision.</p>
                     </CardContent>
                     <CardFooter>
                         <Button variant="outline" asChild>

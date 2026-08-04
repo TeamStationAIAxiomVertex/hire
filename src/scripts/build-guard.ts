@@ -6,16 +6,16 @@
  * Description: Enforces deterministic build, lint, and SEO validation pipeline.
  */
 
-import { execSync } from &quot;child_process&quot;;
-import fs from &quot;fs&quot;;
-import path from &quot;path&quot;;
+import { execSync } from "child_process";
+import fs from "fs";
+import path from "path";
 
-const logPath = &quot;/tmp/build-guard.log&quot;;
+const logPath = "/tmp/build-guard.log";
 
 function runCommand(cmd: string, label: string) {
   console.log(`\n🔍 Running ${label}...`);
   try {
-    execSync(cmd, { stdio: &quot;inherit&quot; });
+    execSync(cmd, { stdio: "inherit" });
     console.log(`✅ ${label} passed.`);
   } catch (err) {
     fs.appendFileSync(logPath, `❌ ${label} failed.\n${err}\n`);
@@ -25,39 +25,39 @@ function runCommand(cmd: string, label: string) {
 }
 
 function validateReports() {
-  const navmeshReport = &quot;/tmp/navmesh-report.log&quot;;
+  const navmeshReport = "/tmp/navmesh-report.log";
   if (fs.existsSync(navmeshReport)) {
-    const contents = fs.readFileSync(navmeshReport, &quot;utf8&quot;);
-    if (contents.includes(&quot;[FAIL]&quot;)) {
-      console.error(&quot;\n❌ NavMesh validation failed. Aborting deployment.\n&quot;);
+    const contents = fs.readFileSync(navmeshReport, "utf8");
+    if (contents.includes("[FAIL]")) {
+      console.error("\n❌ NavMesh validation failed. Aborting deployment.\n");
       fs.appendFileSync(logPath, contents);
       process.exit(1);
     } else {
-      console.log(&quot;✅ NavMesh validation passed.&quot;);
+      console.log("✅ NavMesh validation passed.");
     }
   }
 }
 
 function main() {
-  console.log(&quot;🚀 Running TeamStation AI Build Guard...&quot;);
+  console.log("🚀 Running TeamStation AI Build Guard...");
   fs.writeFileSync(
     logPath,
     `Build Guard Report - ${new Date().toISOString()}\n`,
   );
 
-  runCommand(&quot;npx next build&quot;, &quot;Next.js Build&quot;);
-  runCommand(&quot;npx eslint .&quot;, &quot;ESLint Validation&quot;);
-  runCommand(&quot;npx prettier --check .&quot;, &quot;Prettier Format Check&quot;);
+  runCommand("npx next build", "Next.js Build");
+  runCommand("npx eslint .", "ESLint Validation");
+  runCommand("npx prettier --check .", "Prettier Format Check");
   runCommand(
-    &quot;npx tsx src/scripts/validate-navmesh.ts&quot;,
-    &quot;NavMesh Link Validation&quot;,
+    "npx tsx src/scripts/validate-navmesh.ts",
+    "NavMesh Link Validation",
   );
-  runCommand(&quot;npx tsx src/scripts/generate-sitemap.ts&quot;, &quot;Sitemap Generation&quot;);
+  runCommand("npx tsx src/scripts/generate-sitemap.ts", "Sitemap Generation");
 
   validateReports();
 
-  console.log(&quot;\n✅ Build Guard Completed Successfully.&quot;);
-  console.log(&quot;📄 Logs written to:&quot;, logPath);
+  console.log("\n✅ Build Guard Completed Successfully.");
+  console.log("📄 Logs written to:", logPath);
 }
 
 main();

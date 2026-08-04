@@ -19,8 +19,8 @@ export function CognitiveAiVettingSEOArticle() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "The Science of Elite Talent: A Deep Dive into TeamStation AI’s Cognitive Vetting",
-    "description": "An architectural overview of the Axiom Cortex™ engine, the cognitive AI that powers TeamStation’s predictive talent matching for nearshore engineering teams.",
+    "headline": "The Science of Elite Talent: A Deep Dive into TeamStation AI's Cognitive Vetting",
+    "description": "An architectural overview of the Axiom Cortex™ engine, the cognitive AI that powers TeamStation's predictive talent matching for nearshore engineering teams.",
     "author": { "@type": "Organization", "name": "TeamStation AI" },
     "publisher": { "@type": "Organization", "name": "TeamStation AI" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hire.teamstation.dev/roles/vetted-talent" }
@@ -35,17 +35,17 @@ export function CognitiveAiVettingSEOArticle() {
       <div className="space-y-6">
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                As a technical leader, you’re running a high-stakes arbitrage game. Every dollar spent on engineering must produce a multiple in product velocity and market value. Yet, your single biggest line item—talent—is managed by a process that is fundamentally un-engineered, un-measured, and unreliable.
+                As a technical leader, you're running a high-stakes arbitrage game. Every dollar spent on engineering must produce a multiple in product velocity and market value. Yet, your single biggest line item—talent—is managed by a process that is fundamentally un-engineered, un-measured, and unreliable.
             </p>
         </div>
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                Traditional hiring, especially through nearshore vendors, is a statistical coin flip. It relies on proxies for skill that have been repeatedly proven to be poor predictors of on-the-job performance: resumes (marketing documents), certifications (memorization), and simplistic coding challenges (trivia). This system isn’t just inefficient; it’s architected to select for mediocrity and introduce risk directly into your organization.
+                Traditional hiring, especially through nearshore vendors, is a statistical coin flip. It relies on proxies for skill that have been repeatedly proven to be poor predictors of on-the-job performance: resumes (marketing documents), certifications (memorization), and simplistic coding challenges (trivia). This system isn't just inefficient; it's architected to select for mediocrity and introduce risk directly into your organization.
             </p>
         </div>
          <div className="bg-bg-elev border rounded-xl p-6">
              <p>
-                <strong>TeamStation AI was founded by engineers to solve this engineering problem.</strong> Our Axiom Cortex™ platform is not a better process; it is a different machine. We replaced the resume with a cognitive graph and the interview with a high-fidelity simulation. This article explains the science behind how we measure what actually matters: a candidate’s ability to think, learn, and execute under pressure.
+                <strong>TeamStation AI was founded by engineers to solve this engineering problem.</strong> Our Axiom Cortex™ platform is not a better process; it is a different machine. We replaced the resume with a cognitive graph and the interview with a high-fidelity simulation. This article explains the science behind how we measure what actually matters: a candidate's ability to think, learn, and execute under pressure.
             </p>
         </div>
       </div>
@@ -55,7 +55,7 @@ export function CognitiveAiVettingSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>The Flawed Premise: ’Top 5%’ is a Marketing Metric, Not an Engineering One</span>
+              <span>The Flawed Premise: 'Top 5%' is a Marketing Metric, Not an Engineering One</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
@@ -66,7 +66,7 @@ export function CognitiveAiVettingSEOArticle() {
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution: Cognitive Trait Analysis</h4>
                 <p className="mt-2 text-sm">
-                 We’ve replaced resume filtering with cognitive trait analysis. Axiom Cortex™ measures over 44 psychometric and problem-solving dimensions to build a high-resolution map of a candidate’s mind. We measure their problem decomposition skills, their learning agility, their systems-thinking capacity, and their collaborative aptitude. This allows us to predict not just their technical skill, but their potential to become a force multiplier on your team.
+                 We've replaced resume filtering with cognitive trait analysis. Axiom Cortex™ measures over 44 psychometric and problem-solving dimensions to build a high-resolution map of a candidate's mind. We measure their problem decomposition skills, their learning agility, their systems-thinking capacity, and their collaborative aptitude. This allows us to predict not just their technical skill, but their potential to become a force multiplier on your team.
                 </p>
             </div>
           </CardContent>
@@ -87,7 +87,7 @@ export function CognitiveAiVettingSEOArticle() {
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution: High-Fidelity, Pre-Vetted Shortlists</h4>
                 <p className="mt-2 text-sm">
-                Our platform eliminates this tax. We deliver a shortlist of 2-3 candidates who have already passed our rigorous cognitive and technical vetting. We provide you with the full data from our Axiom Cortex™ evaluation—the "Evidence Locker"—so you can see not just the result, but the reasoning process behind it. Your team’s time is spent on a final, high-signal conversation about cultural fit, not re-doing the technical screen.
+                Our platform eliminates this tax. We deliver a shortlist of 2-3 candidates who have already passed our rigorous cognitive and technical vetting. We provide you with the full data from our Axiom Cortex™ evaluation—the "Evidence Locker"—so you can see not just the result, but the reasoning process behind it. Your team's time is spent on a final, high-signal conversation about cultural fit, not re-doing the technical screen.
                 </p>
             </div>
           </CardContent>
@@ -108,7 +108,7 @@ export function CognitiveAiVettingSEOArticle() {
           </li>
           <li className="bg-bg-elev border rounded-xl p-6">
             <h4 className="font-semibold text-lg text-text mb-2">2. Simulated Production Scenarios</h4>
-            <p>Candidates are placed in a high-fidelity simulated environment and tasked with solving a real-world architectural problem. We don’t ask them to reverse a binary tree; we ask them to design a fault-tolerant microservice or diagnose a production performance issue. Their entire process—every command, every search query, every design decision—is recorded.</p>
+            <p>Candidates are placed in a high-fidelity simulated environment and tasked with solving a real-world architectural problem. We don't ask them to reverse a binary tree; we ask them to design a fault-tolerant microservice or diagnose a production performance issue. Their entire process—every command, every search query, every design decision—is recorded.</p>
           </li>
           <li className="bg-bg-elev border rounded-xl p-6">
             <h4 className="font-semibold text-lg text-text mb-2">3. AI-Powered Synthesis & Scoring</h4>
@@ -121,7 +121,7 @@ export function CognitiveAiVettingSEOArticle() {
           <h2 className="text-3xl font-semibold text-text mb-4 flex items-center gap-3"><DynamicIcon name="ShieldCheck" className="w-8 h-8 text-primary"/> The Result: Predictable Excellence</h2>
           <div className="space-y-6">
               <div className="bg-bg-elev border rounded-xl p-6">
-                  <p>By shifting the focus from credentials to cognition, we have created a hiring model that is not only faster but fundamentally more reliable. This data-driven approach is why we can offer a 9-day average time-to-offer and maintain a 90% engineer retention rate at 12 months. It’s the difference between staffing and engineering.</p>
+                  <p>By shifting the focus from credentials to cognition, we have created a hiring model that is not only faster but fundamentally more reliable. This data-driven approach is why we can offer a 9-day average time-to-offer and maintain a 90% engineer retention rate at 12 months. It's the difference between staffing and engineering.</p>
               </div>
               <ul className="list-none grid md:grid-cols-2 gap-6">
                 <li className="bg-bg-elev border rounded-xl p-6">

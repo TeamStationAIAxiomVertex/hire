@@ -20,8 +20,8 @@ export function DataAiSEOArticle() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TechArticle",
-    "headline": "The CTO’s Guide to Hiring Elite Data & AI Engineers in LATAM",
-    "description": "A strategic playbook for sourcing nearshore data engineers and ML specialists who can build production-grade, AI-driven systems, vetted by TeamStation’s Axiom Cortex™.",
+    "headline": "The CTO's Guide to Hiring Elite Data & AI Engineers in LATAM",
+    "description": "A strategic playbook for sourcing nearshore data engineers and ML specialists who can build production-grade, AI-driven systems, vetted by TeamStation's Axiom Cortex™.",
     "author": { "@type": "Organization", "name": "TeamStation AI" },
     "publisher": { "@type": "Organization", "name": "TeamStation AI" },
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://hire.teamstation.dev/roles/data-ai" }
@@ -36,12 +36,12 @@ export function DataAiSEOArticle() {
       <div className="space-y-6">
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                You’ve invested heavily in a data science team, but your most promising <strong>machine learning models</strong> are gathering dust in a GitHub repository. They perform beautifully in a notebook but have never seen a production environment. This is the most common failure mode in enterprise AI: a chasm between data science and production engineering. Your team can build models, but they can’t build <strong>scalable, reliable, and observable AI systems</strong>.
+                You've invested heavily in a data science team, but your most promising <strong>machine learning models</strong> are gathering dust in a GitHub repository. They perform beautifully in a notebook but have never seen a production environment. This is the most common failure mode in enterprise AI: a chasm between data science and production engineering. Your team can build models, but they can't build <strong>scalable, reliable, and observable AI systems</strong>.
             </p>
         </div>
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-                Traditional staffing vendors amplify this problem. They provide data scientists who are skilled in statistical theory but lack the engineering rigor to build production-grade <strong>data pipelines</strong> and <strong>MLOps workflows</strong>. This leaves you with a "science fair" AI program that can’t deliver tangible business value.
+                Traditional staffing vendors amplify this problem. They provide data scientists who are skilled in statistical theory but lack the engineering rigor to build production-grade <strong>data pipelines</strong> and <strong>MLOps workflows</strong>. This leaves you with a "science fair" AI program that can't deliver tangible business value.
             </p>
         </div>
          <div className="bg-bg-elev border rounded-xl p-6">
@@ -77,13 +77,13 @@ export function DataAiSEOArticle() {
           <CardHeader>
             <CardTitle className="flex items-start gap-3">
               <DynamicIcon name="ThumbsDown" className="w-6 h-6 text-destructive flex-shrink-0" />
-              <span>Pain: Your LLM application is unreliable and ’hallucinates’ incorrect information.</span>
+              <span>Pain: Your LLM application is unreliable and 'hallucinates' incorrect information.</span>
             </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="font-semibold text-text mb-2">The Business Impact:</p>
             <p>
-              An LLM that provides factually incorrect or irrelevant answers is more than just a novelty; it’s a liability. For any serious customer-facing or internal application, these ’hallucinations’ destroy user trust and can lead to disastrous business outcomes. Your team has a powerful tool but lacks the architectural knowledge to make it reliable.
+              An LLM that provides factually incorrect or irrelevant answers is more than just a novelty; it's a liability. For any serious customer-facing or internal application, these 'hallucinations' destroy user trust and can lead to disastrous business outcomes. Your team has a powerful tool but lacks the architectural knowledge to make it reliable.
             </p>
              <div className="mt-4 border-t border-primary/20 pt-4">
                  <h4 className="font-semibold flex items-center gap-2 text-green-500"><DynamicIcon name="ThumbsUp" className="w-5 h-5"/>The TeamStation AI Solution:</h4>
@@ -99,7 +99,7 @@ export function DataAiSEOArticle() {
         <h3 className="text-2xl font-semibold mb-4 text-text">LATAM: A Global Hub for Data & AI Talent</h3>
         <div className="bg-bg-elev border rounded-xl p-6">
             <p>
-            Latin America has become a powerhouse for data science and AI, driven by strong university programs, a vibrant startup ecosystem, and major investments from global tech companies. The region’s talent pool is not only technically skilled but also deeply experienced in solving real-world business problems with data.
+            Latin America has become a powerhouse for data science and AI, driven by strong university programs, a vibrant startup ecosystem, and major investments from global tech companies. The region's talent pool is not only technically skilled but also deeply experienced in solving real-world business problems with data.
             </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
@@ -122,7 +122,7 @@ export function DataAiSEOArticle() {
         <h3 className="text-2xl font-semibold mb-4 text-text">The Modern MLOps Mandate: The AI Factory</h3>
          <div className="bg-bg-elev border rounded-xl p-6 mb-6">
             <p>
-            Modern AI development is not about one-off models; it’s about building an "AI factory"—a repeatable, automated platform for training, deploying, and monitoring models at scale.
+            Modern AI development is not about one-off models; it's about building an "AI factory"—a repeatable, automated platform for training, deploying, and monitoring models at scale.
             </p>
         </div>
         <ul className="list-none space-y-6">
@@ -133,7 +133,7 @@ export function DataAiSEOArticle() {
             <strong>CI/CD for Models:</strong> A modern MLOps pipeline automates the entire lifecycle, from code commit to model deployment. This includes data validation, model training, model evaluation, and a staged rollout to production.
           </li>
           <li className="bg-bg-elev border rounded-xl p-6">
-            <strong>Comprehensive Monitoring:</strong> It’s not enough to monitor CPU and memory. A production AI system requires monitoring for <strong>data drift</strong>, <strong>concept drift</strong>, and model bias to ensure its performance doesn’t silently degrade over time.
+            <strong>Comprehensive Monitoring:</strong> It's not enough to monitor CPU and memory. A production AI system requires monitoring for <strong>data drift</strong>, <strong>concept drift</strong>, and model bias to ensure its performance doesn't silently degrade over time.
           </li>
         </ul>
         <div className="bg-bg-elev border rounded-xl p-6 mt-6">

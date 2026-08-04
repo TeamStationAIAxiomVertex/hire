@@ -42,20 +42,20 @@ const contactSchema = {
 const sandlerPainPoints = [
     {
         title: "The Competence Gap",
-        pain: "You’ve hired engineers from nearshore vendors who pass basic coding tests but lack the architectural instinct to build scalable, maintainable systems. They can follow instructions but can’t design a solution, forcing your senior talent to spend their time re-architecting and hand-holding instead of innovating.",
-        impact: "This 'competence gap' is a massive hidden tax on your team’s velocity. Every hour a senior engineer spends mentoring a mid-level developer on basic system design is an hour not spent on your most critical, high-leverage projects. It leads to a fragile codebase, burned-out senior staff, and a product that scales poorly.",
+        pain: "You've hired engineers from nearshore vendors who pass basic coding tests but lack the architectural instinct to build scalable, maintainable systems. They can follow instructions but can't design a solution, forcing your senior talent to spend their time re-architecting and hand-holding instead of innovating.",
+        impact: "This 'competence gap' is a massive hidden tax on your team's velocity. Every hour a senior engineer spends mentoring a mid-level developer on basic system design is an hour not spent on your most critical, high-leverage projects. It leads to a fragile codebase, burned-out senior staff, and a product that scales poorly.",
         solution: "We specialize in identifying senior and staff-level engineers with proven architectural abilities. Our Axiom Cortex™ engine vets for the cognitive traits that define elite talent: systems thinking, problem decomposition, and the ability to anticipate second-order effects. You get an engineer who is a force multiplier, not a resource drain."
     },
     {
         title: "The Human Latency Tax",
         pain: "Your offshore team is 12 hours ahead. A simple question on a pull request blocks progress for a full day. Your US-based team is forced into late-night or early-morning meetings, disrupting their workflow and leading to burnout. Agility is impossible when your feedback loop is 24 hours long.",
-        impact: "This 'human latency tax' quietly destroys your roadmap. A feature that should take a week takes three. Your team’s velocity grinds to a halt, you miss market windows, and your competitors out-innovate you. The low hourly rate of an offshore team is a mirage when you factor in the massive cost of delay.",
+        impact: "This 'human latency tax' quietly destroys your roadmap. A feature that should take a week takes three. Your team's velocity grinds to a halt, you miss market windows, and your competitors out-innovate you. The low hourly rate of an offshore team is a mirage when you factor in the massive cost of delay.",
         solution: "We specialize in the LATAM time-zone, providing elite engineers who work your hours. Real-time collaboration is the default. Questions are answered in minutes, not days. Pair programming is seamless. Our nearshore model eliminates the human latency tax, restoring the agile workflow your team needs to compete and win."
     },
     {
         title: "The Vendor Shell Game",
-        pain: "You’ve been burned by opaque nearshore vendors who promise senior talent but deliver mid-level developers at inflated rates. Their vetting process is a black box, their pricing is confusing, and you have no real relationship with the engineers who are supposedly part of your team.",
-        impact: "This lack of transparency erodes trust and creates a transactional, low-accountability relationship. You spend more time managing the vendor than building your product. You’re never sure if you’re getting what you paid for, and the constant churn and quality issues make it impossible to build a cohesive, high-performing team.",
+        pain: "You've been burned by opaque nearshore vendors who promise senior talent but deliver mid-level developers at inflated rates. Their vetting process is a black box, their pricing is confusing, and you have no real relationship with the engineers who are supposedly part of your team.",
+        impact: "This lack of transparency erodes trust and creates a transactional, low-accountability relationship. You spend more time managing the vendor than building your product. You're never sure if you're getting what you paid for, and the constant churn and quality issues make it impossible to build a cohesive, high-performing team.",
         solution: "TeamStation AI is an intelligent infrastructure platform, not a traditional agency. We offer radical transparency into our vetting process and pricing model. You get a direct relationship with your engineers and a single, simple monthly invoice that covers everything. We are a long-term partner, not a body shop."
     }
 ]
@@ -90,7 +90,7 @@ export default function ContactPage() {
                         Stop Interviewing. Start Building.
                     </h1>
                     <p className="text-lg md:text-xl text-muted">
-                        You’re here because the traditional model of nearshore IT staffing is broken. It’s a slow, expensive, and high-risk numbers game that wastes your most valuable asset: your senior engineering time. This discovery call is not a sales pitch; it’s an architectural session to diagnose your current hiring constraints and design a talent pipeline that delivers pre-vetted, elite engineers who align with your technical and cognitive needs from day one.
+                        You're here because the traditional model of nearshore IT staffing is broken. It's a slow, expensive, and high-risk numbers game that wastes your most valuable asset: your senior engineering time. This discovery call is not a sales pitch; it's an architectural session to diagnose your current hiring constraints and design a talent pipeline that delivers pre-vetted, elite engineers who align with your technical and cognitive needs from day one.
                     </p>
                     <Button asChild size="lg" className="mt-8">
                         <Link
@@ -105,7 +105,7 @@ export default function ContactPage() {
                 </header>
 
                  <section className="mb-20">
-                    <h2 className="font-semibold text-3xl tracking-tight text-center mb-12">The True Cost of a Mis-Hire: A CTO’s Dilemma</h2>
+                    <h2 className="font-semibold text-3xl tracking-tight text-center mb-12">The True Cost of a Mis-Hire: A CTO's Dilemma</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {sandlerPainPoints.map((point, index) => (
                            <Card key={index} className="flex flex-col">
@@ -144,7 +144,7 @@ export default function ContactPage() {
                                 <Calculator className="w-8 h-8 text-primary"/>
                                 The Math: The True Cost of a Vacancy
                             </h2>
-                            <p className="text-muted mb-6">Show this to your CFO. A slow hiring process isn’t just an inconvenience; it’s a direct tax on your revenue. We can help you quantify it.</p>
+                            <p className="text-muted mb-6">Show this to your CFO. A slow hiring process isn't just an inconvenience; it's a direct tax on your revenue. We can help you quantify it.</p>
                             <div className="prose prose-sm dark:prose-invert text-muted bg-bg-elev p-6 rounded-lg border">
                                 <p>Assume a new feature is worth **$1,000,000 ARR** per year.</p>
                                 <ul>
@@ -228,7 +228,7 @@ export default function ContactPage() {
                                ))}
                                 <li>
                                     <Link href="https://cto.teamstation.dev" target="_blank" rel="noopener noreferrer" className="text-sm text-muted hover:text-primary hover:underline flex justify-between items-center group">
-                                        <span>The CTO’s Playbook Hub</span>
+                                        <span>The CTO's Playbook Hub</span>
                                         <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                                     </Link>
                                 </li>

@@ -3,7 +3,7 @@ export const dynamic = "force-dynamic";
 * Feature: Privacy Policy Page
 * Type: page
 * Route: /legal/privacy
-* Description: Displays the company’s privacy policy.
+* Description: Displays the company's privacy policy.
 * Acceptance:
 *  - ✅ Compiles without TypeScript errors
 *  - ✅ Lints and formats cleanly
@@ -76,7 +76,7 @@ export default function PrivacyPolicyPage() {
                         Any Questions?
                     </h2>
                     <p className="text-lg text-muted max-w-2xl mx-auto mb-8">
-                       If you have any questions about this Privacy Policy, please don’t hesitate to reach out.
+                       If you have any questions about this Privacy Policy, please don't hesitate to reach out.
                     </p>
                     <Button asChild size="lg">
                         <Link href="/contact">
